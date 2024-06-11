@@ -1,0 +1,31 @@
+:root {
+    /* --baseline: 2.5rem; */
+}
+
+.hide {display: none;}
+.hide-scrollbar::-webkit-scrollbar {display: none;}
+.hide-scrollbar {-ms-overflow-style: none;scrollbar-width: none;}
+.stop {overflow: hidden;}
+
+
+.hide-m {display: none !important;}
+.hide-m_t {display: none !important;}
+.hide-m_d {display: none !important;}
+@media only screen and (min-width: 768px) {
+    .hide-t {display: none !important;}
+    .hide-t_d {display: none !important;}
+    .hide-m {display: unset !important;}
+    .hide-m_d {display: unset !important;}
+}
+@media only screen and (min-width: 1024px) {
+    .hide-d {display: none !important;}
+    .hide-m_d {display: none !important;}
+    .hide-m_t {display: unset !important;}
+    .hide-t {display: inherit !important;}
+}
+.stop {overflow: hidden;}
+
+
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 1024px) {}
+@media (hover: hover) {}

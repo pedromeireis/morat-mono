@@ -1,0 +1,19 @@
+title: Site
+
+sections:
+  pages:
+    type: pages
+  
+  seo:
+    extends: sections/seo
+  seo_home:
+    type: fields
+    fields:
+      seo_keywords:
+        label: Keyowrds
+        type: tags
+      seo_copyright:
+        label: Copyright
+        type: text
+        counter: false
+        icon: lock
