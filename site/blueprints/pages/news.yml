@@ -17,16 +17,13 @@ tabs:
           articles:
             label: 📄 Pages
             type: pages
-            layout: table
+            layout: cards
             sortBy: date desc
-            columns:
-              date:
-                width: 1/8
-              category:
-                width: 1/4
-            templates: article
+            info: '<br>{{ page.date.toDate('j F Y') }}<br>( {{ page.category }} )'
             image:
               query: page.picture.toFile
+              ratio: 5/4
+              cover: true
               back: white
   settings:
     label: Settings

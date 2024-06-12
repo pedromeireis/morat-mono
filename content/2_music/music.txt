@@ -5,17 +5,463 @@ Title: Music
 Music:
 
 - 
-  title: ""
-  artist: ""
-  duration: ""
-  year: ""
-  cover: [ ]
-  youtube: ""
-  spotify: ""
-  apple_music: ""
-  amazon: ""
-  souncloud: ""
-  tidal: ""
+  title: Faltas Tú
+  artist: Morat
+  duration: 03:55
+  year: 2024
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Tarde
+  artist: Morat
+  duration: 02:47
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Aprender a Quererte
+  artist: Morat
+  duration: 03:49
+  year: 2024
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Mi Vida Entera
+  artist: Morat
+  duration: 03:34
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: La Correcta
+  artist: Nabález, Morat
+  duration: 03:39
+  year: 2024
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Punto y a Parte
+  artist: Morat
+  duration: 03:31
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: A Donde Vámos
+  artist: Morat
+  duration: 03:39
+  year: 2024
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Al Aire
+  artist: Morat
+  duration: 03:23
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: "506"
+  artist: Morat
+  duration: 03:00
+  year: 2024
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Segundos Platos
+  artist: Morat
+  duration: 03:22
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Acuérdate de Mí
+  artist: Morat
+  duration: 03:04
+  year: 2024
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Cómo te Atreves
+  artist: Morat
+  duration: 03:41
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Presiento
+  artist: Morat, Aitana
+  duration: 03:59
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Besos en Guerra
+  artist: Juanes, Morat
+  duration: 02:54
+  year: 2024
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Tarde
+  artist: Morat
+  duration: 02:47
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Mi Vida Entera
+  artist: Morat
+  duration: 03:34
+  year: 2024
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Faltas Tú
+  artist: Morat
+  duration: 03:55
+  year: 2023
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Acuérdate de Mí
+  artist: Morat
+  duration: 03:04
+  year: 2023
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Tarde
+  artist: Morat
+  duration: 02:47
+  year: 2023
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Aprender a Quererte
+  artist: Morat
+  duration: 03:49
+  year: 2023
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Mi Vida Entera
+  artist: Morat
+  duration: 03:34
+  year: 2023
+  cover:
+    - file://iRfQcO0w1qXWNlQQ
+  youtube: >
+    https://www.youtube.com/watch?v=U29h5Ocgj30
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Faltas Tú
+  artist: Morat
+  duration: 03:55
+  year: 2022
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: La Correcta
+  artist: Nabález, Morat
+  duration: 03:39
+  year: 2022
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: "506"
+  artist: Morat
+  duration: 03:00
+  year: 2022
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Besos en Guerra
+  artist: Juanes, Morat
+  duration: 02:54
+  year: 2022
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: Cómo te Atreves
+  artist: Morat
+  duration: 03:04
+  year: 2022
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
+  google_play: ""
+- 
+  title: A Donde Vámos
+  artist: Morat
+  duration: 03:39
+  year: 2022
+  cover:
+    - file://0sELRhT6SZDI5qJv
+  youtube: >
+    https://www.youtube.com/watch?v=lIkq-a92p_Q
+  spotify: >
+    https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
+  apple_music: >
+    https://music.apple.com/pt/artist/morat/955657302?l=en-GB
+  amazon: https://music.amazon.com/morat
+  souncloud: https://soundcloud.com/morat
+  tidal: https://tidal.com/morat
   google_play: ""
 
 ----

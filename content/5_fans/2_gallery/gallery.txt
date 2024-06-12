@@ -2,7 +2,7 @@ Title: Gallery
 
 ----
 
-Uuid: qGYRzUB3oUWRyu1c
+Seo-title: 
 
 ----
 
@@ -10,4 +10,8 @@ Seo-description:
 
 ----
 
-Seo-picture: 
+Seo-picture: - file://nVRv0LlfNiUDI7nP
+
+----
+
+Uuid: qGYRzUB3oUWRyu1c

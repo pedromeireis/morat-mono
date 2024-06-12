@@ -2,11 +2,36 @@ Title: Videos
 
 ----
 
-Uuid: qnI4fX9onKVmlfaa
+Videos:
+
+- 
+  title: Los Estadios Tour Setlist
+  link: >
+    https://www.youtube.com/watch?v=lBW-IIR__L4
+- 
+  title: Cómo tocar "Faltas Tú" en guitarra
+  link: >
+    https://www.youtube.com/watch?v=IMVDj23jKAU
+- 
+  title: Cómo tocar "Faltas Tú" en bajo
+  link: >
+    https://www.youtube.com/watch?v=bv8lF1dQYm8
+- 
+  title: >
+    SAFH TOUR Ep. 2 “¿Usted como se lava
+    los dientes?”
+  link: >
+    https://www.youtube.com/watch?v=8KvOVo3FC2U
+- 
+  title: >
+    Finalizando SAFH TOUR Ep. 1 "Se mojó mi
+    media"
+  link: >
+    https://www.youtube.com/watch?v=KZyRQTCq25A
 
 ----
 
-Videos: 
+Seo-title: 
 
 ----
 
@@ -14,4 +39,12 @@ Seo-description:
 
 ----
 
-Seo-picture: 
+Seo-picture: - file://ZTAHiXxcHRzGbbg9
+
+----
+
+Picture: - file://ZTAHiXxcHRzGbbg9
+
+----
+
+Uuid: qnI4fX9onKVmlfaa

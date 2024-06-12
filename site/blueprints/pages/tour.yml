@@ -14,13 +14,12 @@ tabs:
               tour:
                 label: 🎸 Tour
                 type: structure
+                sortBy: date asc
                 columns:
-                  year:
-                    width: 1/8
-                  city:
-                    width: 1/4
                   date:
                     width: 1/8
+                  city:
+                    width: 3/8
                   venue:
                     width: 3/8
                   sold_out: true
@@ -30,17 +29,10 @@ tabs:
                     label: 📍 City
                     type: text
                     counter: false
-                    width: 1/2
+                    width: 3/4
                   date:
                     label: 📅 Date
-                    type: text
-                    counter: false
-                    placeholder: '01 Jan'
-                    width: 1/4
-                  year:
-                    label: 🗓️ Year
-                    type: number
-                    min: 2000
+                    type: date
                     width: 1/4
                   venue:
                     label: 🎪 Venue

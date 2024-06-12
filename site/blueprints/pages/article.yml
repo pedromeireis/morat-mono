@@ -18,7 +18,6 @@ tabs:
               date:
                 label: 📅 Date
                 type: date
-                display: D MMMM YYYY
               picture:
                 label: 📸 Picture
                 type: files

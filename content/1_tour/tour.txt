@@ -5,11 +5,126 @@ Title: Tour
 Tour:
 
 - 
-  city: ""
-  date: ""
-  year: ""
-  venue: ""
-  tickets: ""
+  city: Madrid (ES)
+  date: 2024-06-21
+  venue: Estadio Cívitas Metropolitano
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+  year: 2024
+- 
+  city: Caracas (VE)
+  date: 2024-06-29
+  venue: Estadio Olímpico UCV
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'true'
+  year: 2024
+- 
+  city: Bogotá (CO)
+  date: 2024-07-06
+  venue: Estadio El Campin
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Bogotá (CO)
+  date: 2024-07-07
+  venue: Estadio El Campin
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Medellín (CO)
+  date: 2024-07-13
+  venue: Estadio Atanasio Girardot
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Quitoqu (EC)
+  date: 2024-07-20
+  venue: Estadio Atahualpa
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Guayaquil (EC)
+  date: 2024-07-27
+  venue: Estadio Modelo
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Santo Domingo (DO)
+  date: 2024-08-02
+  venue: Estadio Quisqueva
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Asunción (PY)
+  date: 2024-09-28
+  venue: Estadio Jokey Club
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Santiago de Chile (CL)
+  date: 2024-10-05
+  venue: Estadio Bicentenario
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'true'
+- 
+  city: Buenos Aires (AR)
+  date: 2024-10-09
+  venue: Estadio Velez
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'true'
+- 
+  city: Lima (PE)
+  date: 2024-10-14
+  venue: Estadio Nacional
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'true'
+- 
+  city: San José (SJO)
+  date: 2024-10-18
+  venue: Estadio Nacional
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Tegucigalpa (HN)
+  date: 2024-10-23
+  venue: Estadio Chochi Sosa
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: San Salvador (SV)
+  date: 2024-10-26
+  venue: Estadio Cuscatalan
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Guatemala (GT)
+  date: 2024-11-02
+  venue: Estadio Cemento Progreso
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'true'
+- 
+  city: Monterrey (MX)
+  date: 2024-11-27
+  venue: Estadio Mobil Super
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Guatemala (GT)
+  date: 2024-12-02
+  venue: Estadio 3 de Marzo
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: Merida (MX)
+  date: 2024-12-08
+  venue: Estadio Carlos Iturralde
+  tickets: https://www.ticketmaster.com/
+  sold_out: 'false'
+- 
+  city: CDMX (MX)
+  date: 2024-12-13
+  venue: Foro Sol
+  tickets: https://www.ticketmaster.com/
   sold_out: 'false'
 
 ----

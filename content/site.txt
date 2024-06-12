@@ -1,1 +1,33 @@
 Title: Morat
+
+----
+
+Home-picture:
+
+- file://9SrcStBob21xhzWA
+- file://WuQsB3fWvQcY9S8H
+- file://joWms6AIfscLwEvz
+
+----
+
+Marquee: Morat Vuelve a Latinoamérica Con Su Gira Del 2024. La Primera Parada Será Santiago De Chile Donde El Grupo Retomará Su Gira Mundial.
+
+----
+
+Seo-title: 
+
+----
+
+Seo-description: 
+
+----
+
+Seo-picture: 
+
+----
+
+Seo-keywords: 
+
+----
+
+Seo-copyright: 

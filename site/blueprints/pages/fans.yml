@@ -15,6 +15,7 @@ tabs:
             size: large
             create: false
             image:
+              query: page.seo_picture.toFile
               ratio: 5/4
               cover: true
       - width: 1/4

@@ -80,10 +80,7 @@ tabs:
                     label: Tidal
                     type: link
                     width: 1/2
-                  google_play:
-                    label: Google Play
-                    type: link
-                    width: 1/2
+                    
   settings:
     label: Settings
     icon: cog
