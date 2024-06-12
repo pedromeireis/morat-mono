@@ -1,7 +1,22 @@
 :root {
-    /* --baseline: 2.5rem; */
+    --c-blue: #325AEB;
 }
 
+
+/* 
+MARGIN AND PADDING
+*/
+.margin {margin: 1rem;}
+.margin-t {margin-top: 1rem;}
+.margin-b {margin-bottom: 1rem;}
+
+.padding {padding: 1rem;}
+.padding-v {padding-top: 1rem; padding-bottom: 1rem;}
+.padding-h {padding-right: 1rem; padding-left: 1rem;}
+
+/* 
+STATUS
+*/
 .hide {display: none;}
 .hide-scrollbar::-webkit-scrollbar {display: none;}
 .hide-scrollbar {-ms-overflow-style: none;scrollbar-width: none;}
