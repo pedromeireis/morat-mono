@@ -1,0 +1,99 @@
+title: Music
+icon: audio
+
+tabs:
+  music:
+    label: Music
+    icon: audio
+    columns:
+      - width: 1/1
+        sections:
+          music:
+            type: fields
+            fields:
+              music:
+                label: 🎼 Music
+                type: structure
+                columns:
+                  year:
+                    width: 1/8
+                  title:
+                    width: 3/8
+                  artist:
+                    width: 3/8
+                  duration:
+                    width: 1/8
+                fields:
+                  title:
+                    label: 🎵 Title
+                    type: text
+                    counter: false
+                    width: 1/2
+                  artist:
+                    label: 🎤 Artist
+                    type: text
+                    counter: false
+                    width: 1/2
+                  duration:
+                    label: 🕒 Duration
+                    type: text
+                    counter: false
+                    placeholder: '12:34'
+                    width: 1/4
+                  year:
+                    label: 🗓️ Year
+                    type: number
+                    min: 2000
+                    width: 1/4
+                  cover:
+                    label: 🖼️ Song Cover
+                    type: files
+                    multiple: false
+                    layout: cards
+                    size: fit
+                    image:
+                      ratio: 1/1
+                      cover: true
+                      back: black
+                    width: 1/2
+                  youtube:
+                    label: YouTube
+                    type: link
+                    width: 1/2
+                  spotify:
+                    label: Spotify
+                    type: link
+                    width: 1/2
+                  apple_music:
+                    label: Apple Music
+                    type: link
+                    width: 1/2
+                  amazon:
+                    label: Amazon
+                    type: link
+                    width: 1/2
+                  souncloud:
+                    label: SouncCloud
+                    type: link
+                    width: 1/2
+                  tidal:
+                    label: Tidal
+                    type: link
+                    width: 1/2
+                  google_play:
+                    label: Google Play
+                    type: link
+                    width: 1/2
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo
+      - width: 1/2
+        sections:
+          files:
+            label: 🖼️ Files
+            layout: list

@@ -1,0 +1,55 @@
+title: News
+icon: page
+
+tabs:
+  news:
+    label: News
+    icon: page
+    columns:
+      - width: 1/1
+        sections:
+          news:
+            type: fields
+            fields:
+              categories:
+                label: 🏷️ Categories
+                type: tags
+          articles:
+            label: 📄 Pages
+            type: pages
+            layout: table
+            sortBy: date desc
+            columns:
+              date:
+                width: 1/8
+              category:
+                width: 1/4
+            templates: article
+            image:
+              query: page.picture.toFile
+              back: white
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo
+          seo_home:
+            type: fields
+            fields:
+              seo_keywords:
+                label: 🏷️ Keyowrds
+                type: tags
+              seo_copyright:
+                label: 🔒 Copyright
+                type: text
+                counter: false
+                icon: lock
+      
+      # - width: 1/2
+      #   sections:
+      #     files:
+      #       label: 🖼️ Files
+      #       layout: list

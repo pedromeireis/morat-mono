@@ -1,0 +1,26 @@
+title: Fan Art
+icon: palette
+
+tabs:
+  gallery:
+    label: Gallery
+    icon: palette
+    columns:
+      - width: 1/1
+        sections:
+          files:
+            label: 🎨 Fan Art
+            layout: cards
+            image:
+              ratio: 1/1
+              back: white
+              cover: false
+              
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo

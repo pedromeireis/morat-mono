@@ -1,0 +1,33 @@
+Title: News
+
+----
+
+Categories: Lanzamientos, Eventos, Revistas
+
+----
+
+Seo-title: 
+
+----
+
+Seo-description: 
+
+----
+
+Seo-picture: 
+
+----
+
+Seo-keywords: 
+
+----
+
+Seo-copyright: 
+
+----
+
+Uuid: cLq3GmFJfaOLz9bf
+
+----
+
+Home-picture: 

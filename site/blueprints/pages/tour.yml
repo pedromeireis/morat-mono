@@ -1,0 +1,72 @@
+title: Tour
+icon: car
+
+tabs:
+  tour:
+    label: Tour
+    icon: car
+    columns:
+      - width: 1/1
+        sections:
+          tour:
+            type: fields
+            fields:
+              tour:
+                label: 🎸 Tour
+                type: structure
+                columns:
+                  year:
+                    width: 1/8
+                  city:
+                    width: 1/4
+                  date:
+                    width: 1/8
+                  venue:
+                    width: 3/8
+                  sold_out: true
+                    width: 1/8
+                fields:
+                  city:
+                    label: 📍 City
+                    type: text
+                    counter: false
+                    width: 1/2
+                  date:
+                    label: 📅 Date
+                    type: text
+                    counter: false
+                    placeholder: '01 Jan'
+                    width: 1/4
+                  year:
+                    label: 🗓️ Year
+                    type: number
+                    min: 2000
+                    width: 1/4
+                  venue:
+                    label: 🎪 Venue
+                    type: text
+                    counter: false
+                  tickets:
+                    label: 🎫 Tickets
+                    type: url
+                    width: 3/4
+                  sold_out:
+                    label: 🛑 Sold Out?
+                    type: toggle
+                    text:
+                      - 'No'
+                      - 'Yes'
+                    width: 1/4
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo
+      # - width: 1/2
+      #   sections:
+      #     files:
+      #       label: 🖼️ Files
+      #       layout: list

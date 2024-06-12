@@ -1,19 +1,65 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
-  
-  seo:
-    extends: sections/seo
-  seo_home:
-    type: fields
-    fields:
-      seo_keywords:
-        label: Keyowrds
-        type: tags
-      seo_copyright:
-        label: Copyright
-        type: text
-        counter: false
-        icon: lock
+tabs:
+  morat:
+    label: Morat
+    icon: home
+    columns:
+      - width: 1/2
+        sections:
+          pages:
+            label: 📄 Pages
+            type: pages
+            layout: list
+            templates:
+              - 'tour'
+              - 'music'
+              - 'merch'
+              - 'news'
+              - 'fans'
+            create: false
+            image:
+              query: page.icon
+              back: white
+      - width: 1/2
+        sections:
+          home_page:
+            type: fields
+            fields:
+              home_picture:
+                label: 📸 Homepage Picture
+                type: files
+                layout: cards
+                image:
+                  ratio: 16/9
+                  cover: true
+                  back: black
+              marquee:
+                label: 🚨 Marquee
+                type: text
+                counter: false
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo
+          seo_home:
+            type: fields
+            fields:
+              seo_keywords:
+                label: 🏷️ Keyowrds
+                type: tags
+              seo_copyright:
+                label: 🔒 Copyright
+                type: text
+                counter: false
+                icon: lock
+      
+      - width: 1/2
+        sections:
+          files:
+            label: 🖼️ Files
+            layout: list

@@ -1,0 +1,58 @@
+title: Article
+icon: page
+create:
+  fields:
+    - date
+    - category
+
+tabs:
+  article:
+    label: Article
+    icon: page
+    columns:
+      - width: 1/4
+        sections:
+          article:
+            type: fields
+            fields:
+              date:
+                label: 📅 Date
+                type: date
+                display: D MMMM YYYY
+              picture:
+                label: 📸 Picture
+                type: files
+                multiple: false
+                layout: cards
+                size: fit
+                image:
+                  ratio: 5/4
+                  cover: true
+              category:
+                label: 🏷️ Category
+                type: select
+                options: query
+                query: page.parent.categories.split(',')
+      - width: 3/4
+        sections:
+          editorial:
+            type: fields
+            fields:
+              editorial:
+                label: 📝 Article
+                type: textarea
+                size: huge
+              
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo
+      - width: 1/2
+        sections:
+          files:
+            label: 🖼️ Files
+            layout: list

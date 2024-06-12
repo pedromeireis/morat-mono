@@ -1,22 +1,22 @@
 type: fields
 fields:
-  seo_headline:
-    label: 🔍 SEO
-    type: headline
-    numbered: false
-    help: SEO (Search Engine Optimization) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic.
+  # seo_headline:
+  #   label: 🔍 SEO
+  #   type: headline
+  #   numbered: false
+  #   help: SEO (Search Engine Optimization) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic.
   seo_title:
-    label: Title
+    label: ✒️ SEO Title
     type: text
     counter: false
     help: The SEO Title will also overwrite the tab title.
   seo_description:
-    label: Description
+    label: 📝 SEO Description
     type: textarea
     size: small
     buttons: false
   seo_picture:
-    label: Picture
+    label: 📸 SEO Picture
     type: files
     multiple: false
     layout: cards

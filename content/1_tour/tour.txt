@@ -1,0 +1,29 @@
+Title: Tour
+
+----
+
+Tour:
+
+- 
+  city: ""
+  date: ""
+  year: ""
+  venue: ""
+  tickets: ""
+  sold_out: 'false'
+
+----
+
+Seo-title: 
+
+----
+
+Seo-description: 
+
+----
+
+Seo-picture: 
+
+----
+
+Uuid: 0HcUTp5Zihl0X7FN

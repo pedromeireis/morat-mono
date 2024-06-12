@@ -1,0 +1,53 @@
+title: Fans
+icon: users
+
+tabs:
+  fans:
+    label: Fans
+    icon: users
+    columns:
+      - width: 3/4
+        sections:
+          galleries:
+            label: 🖼️ Galleries
+            type: pages
+            layout: cards
+            size: large
+            create: false
+            image:
+              ratio: 5/4
+              cover: true
+      - width: 1/4
+        sections:
+          forum:  
+            type: fields
+            fields:
+              forum:
+                label: 💬 Forum
+                type: link
+        
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo
+          seo_home:
+            type: fields
+            fields:
+              seo_keywords:
+                label: 🏷️ Keyowrds
+                type: tags
+              seo_copyright:
+                label: 🔒 Copyright
+                type: text
+                counter: false
+                icon: lock
+      
+      # - width: 1/2
+      #   sections:
+      #     files:
+      #       label: 🖼️ Files
+      #       layout: list

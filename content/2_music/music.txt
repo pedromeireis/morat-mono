@@ -1,0 +1,35 @@
+Title: Music
+
+----
+
+Music:
+
+- 
+  title: ""
+  artist: ""
+  duration: ""
+  year: ""
+  cover: [ ]
+  youtube: ""
+  spotify: ""
+  apple_music: ""
+  amazon: ""
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+
+----
+
+Seo-title: 
+
+----
+
+Seo-description: 
+
+----
+
+Seo-picture: 
+
+----
+
+Uuid: QL1XsYpji9LUpYt1

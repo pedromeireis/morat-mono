@@ -1,0 +1,59 @@
+title: Merch
+icon: cart
+
+tabs:
+  merch:
+    label: Merch
+    icon: cart
+    columns:
+      - width: 1/1
+        sections:
+          merch:
+            type: fields
+            fields:
+              music:
+                label: 🛍️ Merch
+                type: structure
+                columns:
+                  product:
+                    width: 3/4
+                  price:
+                    width: 1/4
+                fields:
+                  product:
+                    label: 👕 Product
+                    type: text
+                    counter: false
+                  price:
+                    label: 💰 Price
+                    type: text
+                    after: '€'
+                    counter: false
+                    width: 1/2
+                  picture:
+                    label: 📸 Picture
+                    type: files
+                    multiple: false
+                    layout: cards
+                    size: fit
+                    image:
+                      ratio: 1/1
+                      cover: false
+                      back: white
+                    width: 1/2
+                  link:
+                    label: 🛒 Shop Link
+                    type: link
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo
+      - width: 1/2
+        sections:
+          files:
+            label: 🖼️ Files
+            layout: list

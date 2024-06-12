@@ -1,0 +1,26 @@
+title: Gallery
+icon: images
+
+tabs:
+  gallery:
+    label: Gallery
+    icon: images
+    columns:
+      - width: 1/1
+        sections:
+          files:
+            label: 🖼️ Gallery
+            layout: cards
+            image:
+              ratio: 1/1
+              back: black
+              cover: true
+              
+  settings:
+    label: Settings
+    icon: cog
+    columns:
+      - width: 1/2
+        sections:
+          seo:
+            extends: sections/seo
