@@ -26,10 +26,12 @@
         'assets/css/snippets/header.css',
         'assets/css/templates/' . $page->template()->name() . '.css',
         'assets/css/snippets/footer.css',
+        
+        'assets/css/snippets/marquee-block.css',
     ]) ?>
 
     <?= js([
         'assets/js/main.js',
     ], ['defer' => true]) ?>
 </head>
-<body>
+<body data-template="<?= $page->intendedTemplate() ?>">

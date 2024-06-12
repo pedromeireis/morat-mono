@@ -28,9 +28,9 @@ Typography
     letter-spacing: 0em;
 }
 
-.t-grot {
-    font-family: Europa Grotesk;
-    font-size: 1.5rem;
+.t-grot {font-family: Europa Grotesk;}
+.t-grot.t-small {
+    font-size: 1.3333rem;
     line-height: 110%;
     letter-spacing: 0em;
 }

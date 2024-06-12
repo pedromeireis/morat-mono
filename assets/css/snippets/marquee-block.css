@@ -1,0 +1,17 @@
+.marquee {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.marquee-container {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 12s linear infinite;
+}
+
+@keyframes marquee {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-50%);}
+}

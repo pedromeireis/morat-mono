@@ -4,6 +4,15 @@
 
 
 /* 
+ELEMENTS
+*/
+img.icon {
+    width: 3rem;
+    height: auto;
+}
+
+
+/* 
 MARGIN AND PADDING
 */
 .margin {margin: 1rem;}
@@ -13,6 +22,22 @@ MARGIN AND PADDING
 .padding {padding: 1rem;}
 .padding-v {padding-top: 1rem; padding-bottom: 1rem;}
 .padding-h {padding-right: 1rem; padding-left: 1rem;}
+
+
+/* 
+POSITIONS
+*/
+.p-fixed {position: fixed;}
+
+.p-all {top: 0; left: 0; right: 0;}
+
+
+/* 
+DISPLAY
+*/
+.flex {display: flex !important;}
+.j-between {justify-content: space-between;}
+
 
 /* 
 STATUS
