@@ -3,4 +3,13 @@
     height: 100%;
     object-fit: cover;
     opacity: .7;
+    z-index: 0;
 }
+
+#home_p-menu {
+    min-height: calc(var(--vh) * 100);
+    max-height: calc(var(--vh) * 100);
+    padding: var(--headerHeightM) 1rem var(--footerHeightM);
+    z-index: 10;
+}
+#home_p-menu a {text-align: center;}

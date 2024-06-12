@@ -21,12 +21,17 @@ Import typefaces
 /* 
 Typography
 */
-.t-cond {
-    font-family: ABC Gravity;
-    font-size: 4rem;
-    line-height: 110%;
-    letter-spacing: 0em;
+.t-cond {font-family: ABC Gravity;}
+.t-cond::before {content: ""; display: table;}
+.t-cond::after {content: ""; display: table;}
+
+.t-cond.t-xlarge {
+    font-size: 45vw;
+    line-height: 104%;
+    letter-spacing: -0.01em;
 }
+.t-cond.t-xlarge::before {margin-bottom: -3.75vw;}
+.t-cond.t-xlarge::after {margin-top: -9.5vw;}
 
 .t-grot {font-family: Europa Grotesk;}
 .t-grot.t-small {

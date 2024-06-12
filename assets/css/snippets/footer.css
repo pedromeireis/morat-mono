@@ -1,5 +1,7 @@
-footer {
+footer,
+.footer-placeholder {
     flex-direction: column;
+    z-index: 80;
 }
 body[data-template="home"] footer {
     right: 0;
@@ -7,4 +9,4 @@ body[data-template="home"] footer {
     left: 0;
 }
 
-.footer-circle {width: calc(calc(calc(100vw - 2rem) - 3rem) / 7);}
+.footer-circle {width: calc(calc(calc(100vw - 2rem) - 3rem) / 7);} /* Window width - margin - .5rem gutter / number of circles*/

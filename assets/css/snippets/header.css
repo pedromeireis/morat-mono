@@ -7,6 +7,18 @@ header {
 }
 body[data-template="home"] header {background: transparent;}
 
+/* MENU */
+#menu {
+    padding: var(--headerHeightM) 1rem 1rem;
+    background: black;
+    z-index: 90;
+}
+#menu[data-status='close'] {transform: translateY(calc(calc(var(--vh) * 100) * -1));}
+#menu[data-status='open'] {transform: translateY(0);}
+
+#menu a {text-align: center;}
+#menu .marquee {margin-left: -2rem !important;}
+
 
 /*
 BUTTON
@@ -16,6 +28,9 @@ BUTTON
     width: fit-content;
     height: fit-content;
 }
+#header-menu_button img {transition: transform 1s ease;}
+#header-menu_button[data-status='close'] img {transform: rotate(0deg);}
+#header-menu_button[data-status='open'] img {transform: rotate(45deg);}
 
 /*
 LOGO
