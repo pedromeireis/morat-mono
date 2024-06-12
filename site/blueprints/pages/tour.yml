@@ -14,7 +14,7 @@ tabs:
               tour:
                 label: 🎸 Tour
                 type: structure
-                sortBy: date asc
+                sortBy: year asc
                 columns:
                   date:
                     width: 1/8
@@ -38,10 +38,11 @@ tabs:
                     label: 🎪 Venue
                     type: text
                     counter: false
+                    width: 3/4
                   tickets:
                     label: 🎫 Tickets
                     type: url
-                    width: 3/4
+                    width: 1/1
                   sold_out:
                     label: 🛑 Sold Out?
                     type: toggle

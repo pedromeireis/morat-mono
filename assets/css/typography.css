@@ -26,12 +26,17 @@ Typography
 .t-cond::after {content: ""; display: table;}
 
 .t-cond.t-xlarge {
-    font-size: 45vw;
-    line-height: 104%;
+    font-size: calc(calc(calc(var(--vh) * 100) - calc(var(--headerHeightM) - var(--footerHeightM))) / 5);
+    line-height: 110%;
     letter-spacing: -0.01em;
 }
-.t-cond.t-xlarge::before {margin-bottom: -3.75vw;}
-.t-cond.t-xlarge::after {margin-top: -9.5vw;}
+.t-cond.t-body {
+    font-size: 2.75rem;
+    line-height: 83%;
+    letter-spacing: 0.025em;
+}
+.t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -2.5);}
+.t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -5);}
 
 .t-grot {font-family: Europa Grotesk;}
 .t-grot.t-small {
@@ -48,4 +53,5 @@ Text Style
 .t-left {text-align: left;}
 .t-center {text-align: center;}
 .t-right {text-align: right;}
-.t-underline {text-decoration: underline;}
+.t-underline {text-decoration: underline !important;}
+.t-through {text-decoration: line-through;}

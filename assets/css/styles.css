@@ -18,13 +18,17 @@ img.icon {
 /* 
 MARGIN AND PADDING
 */
+main.page {margin: var(--headerHeightM) 1rem 1rem;}
 .margin {margin: 1rem;}
 .margin-t {margin-top: 1rem;}
 .margin-b {margin-bottom: 1rem;}
+.margin-b_med {margin-bottom: 2rem;}
+.margin-b_large {margin-bottom: 6rem;}
 
 .padding {padding: 1rem;}
 .padding-v {padding-top: 1rem; padding-bottom: 1rem;}
 .padding-h {padding-right: 1rem; padding-left: 1rem;}
+.padding-t_xsmall {padding-top: .25rem;}
 
 
 /* 
@@ -40,6 +44,8 @@ POSITIONS
 DISPLAY
 */
 .flex {display: flex !important;}
+.f-column {flex-direction: column;}
+.j-center {justify-content: center;}
 .j-between {justify-content: space-between;}
 
 

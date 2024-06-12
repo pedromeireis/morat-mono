@@ -1,0 +1,7 @@
+.tour_p-item > * {width: fit-content;} 
+.tour_p-item > *:nth-child(1) {grid-column: 1/4;}
+.tour_p-item > *:nth-child(2) {grid-column: 4/-1;}
+.tour_p-item > *:nth-child(3) {grid-column: 1/-1;}
+.tour_p-item > *:nth-child(4) {grid-column: 1/-1;}
+
+/* .tour_p-item.--inactive {opacity: .2;} */

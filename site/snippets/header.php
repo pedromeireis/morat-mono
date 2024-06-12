@@ -7,7 +7,7 @@
 </header>
 
 <section id="menu" class="p-fixed p-all padding stop" data-status="close">
-    <nav class="p-relative">
+    <nav class="flex f-column j-center p-relative">
         <a href="<?= page('tour')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('tour')->title() ?></a>
         <a href="<?= page('music')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('music')->title() ?></a>
         <a href="<?= page('merch')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('merch')->title() ?></a>
