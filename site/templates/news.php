@@ -21,19 +21,9 @@
     </nav>
 
     <ul class="grid-xxl">
-    <?php foreach($news as $article): ?>
-    <li class="news_p-item grid-xl margin-b_large">
-        <p class="t-grot t-small t-uppercase margin-b_small"><?= $article->date()->toDate('j F Y') ?></p>
-        <?php if($picture = $article->picture()->toFile()): ?>
-        <?php snippet('media-block', ['media' => $picture, 'sizes' => '100vw', 'id' => null, 'class' => 'ratio-5_4 margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
-        <?php endif ?>
-        <div>
-            <h3 class="t-cond t-large t-uppercase"><?= $article->title() ?></h3>
-            <article class="margin-t_xsmall news_p-item--article t-grot t-small"><?= $article->editorial() ?></article>
-            <a class="margin-t_med news_p-item--article t-grot t-small" href="<?= $article->url() ?>">Leer más /</a>
-        </div>
-    </li>
-    <?php endforeach ?>
+        <?php foreach($news as $article): ?>
+        <li class="news_p-item grid-xl margin-b_large"><?php snippet('article-block', ['article' => $article, 'size' => 'large']) ?></li>
+        <?php endforeach ?>
     </ul>
 </main>
 

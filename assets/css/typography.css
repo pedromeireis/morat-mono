@@ -54,6 +54,8 @@ Typography
 /* 
 Text Style 
 */
+.k-text a {display: inline; text-decoration: underline !important;}
+
 .t-uppercase {text-transform: uppercase;}
 .t-lowercase {text-transform: lowercase;}
 .t-left {text-align: left;}

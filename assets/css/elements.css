@@ -107,6 +107,10 @@ iframe {
     border-radius: .5rem;
     aspect-ratio: 16/9;
 }
+.button iframe {
+    border-radius: 0;
+    aspect-ratio: unset;
+}
 
 video {
     width: 100%;

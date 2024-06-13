@@ -1,0 +1,31 @@
+main > * {grid-column: 1/-1;}
+
+/* 
+BACK
+*/
+#article_p-back {
+    position: sticky;
+    top: var(--headerHeightM);
+    width: fit-content;
+}
+
+
+/* 
+ARTICLE
+*/
+#article_p-article > * {grid-column: 1/-1;}
+
+/* Share */
+#article_p-share > * {margin-right: 1.5rem;}
+#article_p-share--x {
+    border: 2px solid white;
+    border-radius: 16px;
+    margin-right: 1.25rem;
+}
+
+
+/* 
+RELATED
+*/
+#article_p-related > *,
+.article_p-related {grid-column: 1/-1;}

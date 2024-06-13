@@ -20,6 +20,10 @@ img.icon {
     width: 3rem;
     height: auto;
 }
+img.icon-height {
+    width: auto;
+    height: 2.25rem;
+}
 img.ratio-5_4 {aspect-ratio: 5/4; display: flex; object-fit: cover;}
 
 
@@ -30,12 +34,14 @@ main.page {margin: var(--headerHeightM) 1rem 1rem;}
 .margin {margin: 1rem;}
 .margin-t {margin-top: 1rem;}
 .margin-t_xsmall {margin-top: .25rem;}
+.margin-t_small {margin-top: .5rem;}
 .margin-t_med {margin-top: 2rem;}
 .margin-b {margin-bottom: 1rem;}
 .margin-b_xsmall {margin-bottom: .25rem;}
 .margin-b_small {margin-bottom: .5rem;}
 .margin-b_med {margin-bottom: 2rem;}
 .margin-b_large {margin-bottom: 6rem;}
+.margin-b_xlarge {margin-bottom: 10rem;}
 
 .padding {padding: 1rem;}
 .padding-v {padding-top: 1rem; padding-bottom: 1rem;}

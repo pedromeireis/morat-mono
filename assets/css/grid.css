@@ -1,7 +1,9 @@
+.grid-xl,
 .grid-xxl {
     display: grid;
     column-gap: 1rem;
     grid-auto-rows: min-content;
 }
 
+.grid-xl,
 .grid-xxl {grid-template-columns: repeat(6, 1fr);}

@@ -63,12 +63,12 @@
 
             <nav class="p-absolute">
                 <div class="flex j-center margin-b">
-                    <a id="music_p-overlay--spotify" data-status="inactive" href="" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/spotify.svg' ?>" alt="Spotify"></a>
-                    <a id="music_p-overlay--youtube" data-status="inactive" href="" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/youtube.svg' ?>" alt="YouTube"></a>
-                    <a id="music_p-overlay--apple_music"  data-status="inactive" href="" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/apple_music.svg' ?>" alt="Apple Music"></a>
-                    <a id="music_p-overlay--amazon_music"  data-status="inactive" href="" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/amazon_music.svg' ?>" alt="Amazon Music"></a>
-                    <a id="music_p-overlay--soundcloud"  data-status="inactive" href="" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/soundcloud.svg' ?>" alt="SoundCloud"></a>
-                    <a id="music_p-overlay--tidal"  data-status="inactive" href="" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/tidal.svg' ?>" alt="Tidal"></a>
+                    <a id="music_p-overlay--spotify" data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/spotify.svg' ?>" alt="Spotify"></a>
+                    <a id="music_p-overlay--youtube" data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/youtube.svg' ?>" alt="YouTube"></a>
+                    <a id="music_p-overlay--apple_music"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/apple_music.svg' ?>" alt="Apple Music"></a>
+                    <a id="music_p-overlay--amazon_music"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/amazon_music.svg' ?>" alt="Amazon Music"></a>
+                    <a id="music_p-overlay--soundcloud"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/soundcloud.svg' ?>" alt="SoundCloud"></a>
+                    <a id="music_p-overlay--tidal"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/tidal.svg' ?>" alt="Tidal"></a>
                 </div>
                 <p data-status="inactive" class="t-grot t-small t-uppercase t-center">Escúchalo en todas las plataformas</p>
             </nav>

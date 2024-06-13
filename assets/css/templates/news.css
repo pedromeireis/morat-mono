@@ -1,7 +1,8 @@
 /* 
 ITEM
 */
-.news_p-item {grid-column: 1/-1;}
+.news_p-item,
+.news_p-item > * {grid-column: 1/-1;}
 
 .news_p-item--article {
     text-overflow: ellipsis;
