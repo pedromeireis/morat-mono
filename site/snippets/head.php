@@ -41,4 +41,4 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
 
 </head>
-<body data-template="<?= $page->intendedTemplate() ?>">
+<body data-url="<?= $site->url() ?>" data-template="<?= $page->intendedTemplate() ?>">

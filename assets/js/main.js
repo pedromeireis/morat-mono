@@ -1,4 +1,5 @@
 const body = document.querySelector('body')
+const dataURL = body.getAttribute('data-url')
 
 // Set VH
 function setVH() {

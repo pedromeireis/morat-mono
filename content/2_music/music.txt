@@ -11,8 +11,10 @@ Music:
   year: 2024
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
-    https://www.youtube.com/watch?v=lIkq-a92p_Q
+    https://youtu.be/lIkq-a92p_Q?si=9PZajWFwRYzzG_nK
   spotify: >
     https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD
   apple_music: >
@@ -28,6 +30,8 @@ Music:
   year: 2024
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: >
+    https://youtu.be/U29h5Ocgj30?si=qLYk5NlE9GXjNyb0
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -45,6 +49,8 @@ Music:
   year: 2024
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -62,6 +68,8 @@ Music:
   year: 2024
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -79,6 +87,8 @@ Music:
   year: 2024
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -96,6 +106,8 @@ Music:
   year: 2024
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -113,6 +125,8 @@ Music:
   year: 2024
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -130,6 +144,8 @@ Music:
   year: 2024
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -147,6 +163,8 @@ Music:
   year: 2024
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -164,6 +182,8 @@ Music:
   year: 2024
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -181,6 +201,8 @@ Music:
   year: 2024
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -196,8 +218,9 @@ Music:
   artist: Morat
   duration: 03:41
   year: 2024
-  cover:
-    - file://iRfQcO0w1qXWNlQQ
+  cover: [ ]
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -215,6 +238,8 @@ Music:
   year: 2024
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -232,6 +257,8 @@ Music:
   year: 2024
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: >
+    https://youtu.be/lIkq-a92p_Q?si=VJ0u6KsdnfeBmFyg
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -249,6 +276,7 @@ Music:
   year: 2024
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -266,6 +294,7 @@ Music:
   year: 2024
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -283,6 +312,7 @@ Music:
   year: 2023
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -300,6 +330,7 @@ Music:
   year: 2023
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -317,6 +348,7 @@ Music:
   year: 2023
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -334,6 +366,7 @@ Music:
   year: 2023
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -351,6 +384,7 @@ Music:
   year: 2023
   cover:
     - file://iRfQcO0w1qXWNlQQ
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=U29h5Ocgj30
   spotify: >
@@ -368,6 +402,7 @@ Music:
   year: 2022
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -385,6 +420,7 @@ Music:
   year: 2022
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -402,6 +438,7 @@ Music:
   year: 2022
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -419,6 +456,7 @@ Music:
   year: 2022
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -436,6 +474,7 @@ Music:
   year: 2022
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >
@@ -453,6 +492,7 @@ Music:
   year: 2022
   cover:
     - file://0sELRhT6SZDI5qJv
+  youtube_share: ""
   youtube: >
     https://www.youtube.com/watch?v=lIkq-a92p_Q
   spotify: >

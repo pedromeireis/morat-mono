@@ -56,6 +56,10 @@ tabs:
                       cover: true
                       back: black
                     width: 1/2
+                  youtube_share:
+                    label: YouTube Share Link
+                    type: link
+                    help: On the YouTube video page, select 'Share' and then copy the link provided.
                   youtube:
                     label: YouTube
                     type: link
@@ -73,7 +77,7 @@ tabs:
                     type: link
                     width: 1/2
                   souncloud:
-                    label: SouncCloud
+                    label: SoundCloud
                     type: link
                     width: 1/2
                   tidal:

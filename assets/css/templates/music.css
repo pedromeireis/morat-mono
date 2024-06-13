@@ -1,0 +1,53 @@
+/* 
+HIGHLIGHT
+*/
+#music_p-highlight iframe {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* 
+LIST
+*/
+.music_p-year h3 {
+    position: sticky;
+    top: var(--headerHeightM);
+}
+
+.music_p-item > *:nth-child(1) {grid-column: 1/2; grid-row: 1;}
+.music_p-item > *:nth-child(2) {grid-column: 2/-1; grid-row: 1;}
+.music_p-item > *:nth-child(3) {grid-column: 2/-1; grid-row: 2;}
+.music_p-item > *:nth-child(4) {grid-column: 2/-1; grid-row: 3;}
+
+
+/* 
+OVERLAY
+*/
+#music_p-overlay[data-status='close'] {transform: translateX(100vw);}
+/* Button */
+#music_p-overlay > button {
+    top: 1rem;
+    right: 1rem;
+    rotate: 45deg;
+}
+
+/* Video */
+#music_p-overlay {
+    background: black;
+    z-index: 120;
+}
+#music_p-overlay iframe {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Streaming */
+#music_p-overlay > nav {
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+}
+#music_p-overlay > nav a[data-status='inactive'] {display: none;}

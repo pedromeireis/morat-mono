@@ -9,6 +9,7 @@ function menuToggle(button) {
         })
         
         button.setAttribute('data-status', 'open')
+        body.classList.add('stop')
         setTimeout(() => {
             menu.setAttribute('data-status', 'open')
         }, 1000);
@@ -22,6 +23,7 @@ function menuToggle(button) {
         button.setAttribute('data-status', 'close')
         setTimeout(() => {
             menu.setAttribute('data-status', 'close')
+            body.classList.remove('stop')
         }, 1000);
     }
 }

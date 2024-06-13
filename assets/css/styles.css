@@ -21,7 +21,9 @@ MARGIN AND PADDING
 main.page {margin: var(--headerHeightM) 1rem 1rem;}
 .margin {margin: 1rem;}
 .margin-t {margin-top: 1rem;}
+.margin-t_med {margin-top: 2rem;}
 .margin-b {margin-bottom: 1rem;}
+.margin-b_xsmall {margin-bottom: .25rem;}
 .margin-b_med {margin-bottom: 2rem;}
 .margin-b_large {margin-bottom: 6rem;}
 
@@ -36,6 +38,7 @@ POSITIONS
 */
 .p-fixed {position: fixed;}
 .p-relative {position: relative;}
+.p-absolute {position: absolute;}
 
 .p-all {top: 0; left: 0; bottom: 0; right: 0;}
 
@@ -47,6 +50,8 @@ DISPLAY
 .f-column {flex-direction: column;}
 .j-center {justify-content: center;}
 .j-between {justify-content: space-between;}
+
+.f-margin {margin: 0 .5rem;}
 
 
 /* 
