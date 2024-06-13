@@ -15,7 +15,7 @@ function menuToggle(button) {
         }, 1000);
     } else {
         gsap.to('#menu', {
-            y: window.innerHeight * -1,
+            y: document.querySelector('#menu').offsetHeight * -1,
             ease: 'power2.in',
             duration: 1
         })

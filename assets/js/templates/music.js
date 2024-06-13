@@ -79,6 +79,7 @@ function musicOverlayClose() {
         duration: 1
     })
     setTimeout(() => {
+        overlay.querySelector('iframe').setAttribute('src', '')
         overlay.setAttribute('data-status', 'close')
         body.classList.remove('stop')
     }, 1000);

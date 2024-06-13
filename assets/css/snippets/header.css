@@ -13,7 +13,7 @@ body[data-template="home"] header {background: transparent;}
     background: black;
     z-index: 90;
 }
-#menu[data-status='close'] {transform: translateY(calc(calc(calc(var(--vh) * 100) * -1) - 1rem));}
+#menu[data-status='close'] {transform: translateY(-100%);}
 #menu[data-status='open'] {transform: translateY(0);}
 
 #menu a {text-align: center;}

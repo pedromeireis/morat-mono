@@ -8,8 +8,8 @@
     <h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall margin-b_large"><?= $page->title() ?></h2>
 
     <section id="music_p-highlight" class="margin-b_large">
-        <p class="t-grot t-small t-uppercase margin-b_xsmall">Último lanzamiento</p>
-        <?= video($highlight->youtube()) ?>
+        <p class="t-grot t-small t-uppercase margin-b_small">Último lanzamiento</p>
+        <div class="margin-b_small"><?= video($highlight->youtube()) ?></div>
         <div class="flex f-column">
             <p class="t-cond t-large t-uppercase"><?= $highlight->title() ?>, <?= $highlight->year() ?></p>
             <nav class="margin-t_med">
