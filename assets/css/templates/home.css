@@ -13,3 +13,14 @@
     z-index: 10;
 }
 #home_p-menu a {text-align: center;}
+@media only screen and (min-width: 1024px) {
+    #home_p-menu {
+        padding: 1rem 1rem var(--footerHeightD);
+        justify-content: start;
+        align-items: end;
+    }
+    #home_p-menu a {
+        text-align: right;
+        width: fit-content;
+    }
+}

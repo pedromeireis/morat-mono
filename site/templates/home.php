@@ -5,13 +5,13 @@
     <?php snippet('media-block', ['media' => $picture, 'sizes' => '100vw', 'id' => 'home_p-hero', 'class' => 'p-fixed p-all flex', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
     <?php endif ?>
 
-    <!-- <section id="home_p-menu" class="flex f-column j-center p-relative">
-        <a href="<?= page('tour')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('tour')->title() ?></a>
-        <a href="<?= page('music')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('music')->title() ?></a>
-        <a href="<?= page('merch')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('merch')->title() ?></a>
-        <a href="<?= page('news')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('news')->title() ?></a>
-        <a href="<?= page('fans/videos')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('fans')->title() ?></a>
-    </section> -->
+    <section id="home_p-menu" class="flex f-column j-center p-relative">
+        <a href="<?= page('tour')->url() ?>" class="t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('tour')->title() ?></a>
+        <a href="<?= page('music')->url() ?>" class="t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('music')->title() ?></a>
+        <a href="<?= page('merch')->url() ?>" class="t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('merch')->title() ?></a>
+        <a href="<?= page('news')->url() ?>" class="t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('news')->title() ?></a>
+        <a href="<?= page('fans/videos')->url() ?>" class="t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('fans')->title() ?></a>
+    </section>
 </main>
 
 <?php snippet('footer', ['role' => 'footer']) ?>

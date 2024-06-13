@@ -30,6 +30,15 @@ Typography
     line-height: 110%;
     letter-spacing: -0.01em;
 }
+.t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -2.5);}
+.t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -5);}
+@media only screen and (min-width: 1024px) {
+    .t-cond.t-xlarge {
+        font-size: calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) - .5rem);
+    }
+    .t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -3.5);}
+    .t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -6.5);}
+}
 
 .t-cond.t-large {
     font-size: 5rem;
@@ -41,8 +50,6 @@ Typography
     line-height: 83%;
     letter-spacing: 0.025em;
 }
-.t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -2.5);}
-.t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -5);}
 
 .t-grot {font-family: Europa Grotesk;}
 .t-grot.t-small {
