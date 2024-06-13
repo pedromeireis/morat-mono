@@ -1,0 +1,9 @@
+.article-block article {
+    text-overflow: ellipsis;
+    max-height: 5.75rem;
+    display: -webkit-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

@@ -3,13 +3,3 @@ ITEM
 */
 .news_p-item,
 .news_p-item > * {grid-column: 1/-1;}
-
-.news_p-item--article {
-    text-overflow: ellipsis;
-    max-height: 5.75rem;
-    display: -webkit-box;
-    line-clamp: 4;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}

@@ -1,4 +1,7 @@
 <?php snippet('header') ?>
+<?= css([
+    'assets/css/snippets/article-block.css',
+]) ?>
 
 <main class="page">
     <h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $page->title() ?></h2>

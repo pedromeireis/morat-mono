@@ -1,4 +1,4 @@
-<a href="<?= $article->url() ?>">
+<a href="<?= $article->url() ?>" class="article-block">
     <?php if($size == 'large'): ?>
     <p class="t-grot t-small t-uppercase margin-b_small"><?= $article->date()->toDate('j F Y') ?></p>
     <?php endif ?>

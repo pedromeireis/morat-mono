@@ -15,22 +15,22 @@
             <nav class="margin-t_med">
                 <div class="flex j-center margin-b">
                     <?php if($highlight->spotify()->isNotEmpty()): ?>
-                    <a href="<?= $highlight->spotify() ?>" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/spotify.svg' ?>" alt="Spotify"></a>
+                    <a href="<?= $highlight->spotify() ?>" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/spotify.svg' ?>" alt="Spotify"></a>
                     <?php endif ?>
                     <?php if($highlight->youtube()->isNotEmpty()): ?>
-                    <a href="<?= $highlight->youtube() ?>" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/youtube.svg' ?>" alt="YouTube"></a>
+                    <a href="<?= $highlight->youtube() ?>" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/youtube.svg' ?>" alt="YouTube"></a>
                     <?php endif ?>
                     <?php if($highlight->apple_music()->isNotEmpty()): ?>
-                    <a href="<?= $highlight->apple_music() ?>" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/apple_music.svg' ?>" alt="Apple Music"></a>
+                    <a href="<?= $highlight->apple_music() ?>" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/apple_music.svg' ?>" alt="Apple Music"></a>
                     <?php endif ?>
                     <?php if($highlight->amazon()->isNotEmpty()): ?>
-                    <a href="<?= $highlight->amazon() ?>" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/amazon_music.svg' ?>" alt="Amazon Music"></a>
+                    <a href="<?= $highlight->amazon() ?>" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/amazon_music.svg' ?>" alt="Amazon Music"></a>
                     <?php endif ?>
                     <?php if($highlight->soundcloud()->isNotEmpty()): ?>
-                    <a href="<?= $highlight->soundcloud() ?>" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/soundcloud.svg' ?>" alt="SoundCloud"></a>
+                    <a href="<?= $highlight->soundcloud() ?>" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/soundcloud.svg' ?>" alt="SoundCloud"></a>
                     <?php endif ?>
                     <?php if($highlight->tidal()->isNotEmpty()): ?>
-                    <a href="<?= $highlight->tidal() ?>" target="_blank" class="f-margin"><img src="<?= $kirby->url('assets') . '/media/icons/tidal.svg' ?>" alt="Tidal"></a>
+                    <a href="<?= $highlight->tidal() ?>" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/tidal.svg' ?>" alt="Tidal"></a>
                     <?php endif ?>
                 </div>
                 <p class="t-grot t-small t-uppercase t-center">Escúchalo en todas las plataformas</p>

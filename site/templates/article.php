@@ -1,4 +1,7 @@
 <?php snippet('header') ?>
+<?= css([
+    'assets/css/snippets/article-block.css',
+]) ?>
 
 <main class="page grid-xxl">
     <a id="article_p-back" href="<?= $parent->url() ?>" class="margin-b_med"><img class="icon" src="<?= $kirby->url('assets') . '/media/icons/back.svg' ?>" alt="Back to News"></a>

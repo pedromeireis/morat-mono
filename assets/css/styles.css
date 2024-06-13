@@ -22,7 +22,7 @@ img.icon {
 }
 img.icon-height {
     width: auto;
-    height: 2.25rem;
+    height: 2.5rem;
 }
 img.ratio-5_4 {aspect-ratio: 5/4; display: flex; object-fit: cover;}
 
@@ -68,7 +68,7 @@ DISPLAY
 .j-between {justify-content: space-between;}
 .a-center {align-items: center;}
 
-.f-margin {margin: 0 .5rem;}
+.f-margin {margin: 0 .7rem;}
 
 
 /* 
