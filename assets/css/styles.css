@@ -3,6 +3,9 @@
 
     --headerHeightM: calc(2rem + 19vw); /* Header padding + Logo height */
     --footerHeightM: calc(2rem + 1.75rem + 12vw); /* Footer padding + marquee height + circle height */
+    
+    --headerHeightD: 3.25rem;
+    --footerHeightD: 4.75rem;
 }
 
 
@@ -67,6 +70,7 @@ DISPLAY
 .f-nowrap {flex-wrap: nowrap;}
 .f-column {flex-direction: column;}
 .j-center {justify-content: center;}
+.j-end {justify-content: end;}
 .j-between {justify-content: space-between;}
 .a-center {align-items: center;}
 

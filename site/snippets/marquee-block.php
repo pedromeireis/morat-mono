@@ -1,5 +1,5 @@
-<section class="marquee" style="<?= $width ?> <?= $height ?> <?= $m_style ?>">
+<section class="marquee">
     <div class="marquee-container">
-        <span class="<?= $m_text ?>"><?= $text ?></span>
+        <span class="<?= $m_text ?>"><?= $text ?> <?= $text ?></span>
     </div>
 </section>

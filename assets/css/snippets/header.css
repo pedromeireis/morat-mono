@@ -36,3 +36,17 @@ BUTTON
 LOGO
 */
 #header-logo {grid-column: 3/-3;}
+@media only screen and (min-width: 1024px) {
+    #header-logo {grid-column: 1/2;}
+}
+
+/* 
+NAV
+*/
+@media only screen and (min-width: 1024px) {
+    #header-menu_pages {
+        display: flex !important;
+        grid-column: 6/-1;
+        height: fit-content;
+    }
+}

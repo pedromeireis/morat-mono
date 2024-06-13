@@ -3,6 +3,13 @@ footer,
     flex-direction: column;
     z-index: 80;
 }
+@media only screen and (min-width: 1024px) {
+    footer,
+    .footer-placeholder {
+        flex-direction: row;
+        align-items: center;
+    }
+}
 body[data-template="home"] footer,
 body[data-template="fans"] footer,
 body[data-template="videos"] footer {
@@ -11,4 +18,32 @@ body[data-template="videos"] footer {
     left: 0;
 }
 
+/* MARQUEE */
+.marquee {
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 1.22rem;
+    margin: 0 -1rem .5rem;
+}
+@media only screen and (min-width: 1024px) {
+    .marquee {
+        min-width: unset;
+        max-width: unset;
+        width: 100%;
+        height: 1.35rem;
+        margin: 0 0 0 -1rem;
+    }
+}
+
+/* CIRCLE */
 .footer-circle {width: calc(calc(calc(100vw - 2rem) - 3rem) / 7);} /* Window width - margin - .5rem gutter / number of circles*/
+@media only screen and (min-width: 1024px) {
+    #footer-circle--container {
+        flex-grow: 1;
+        margin-left: .5rem;
+    }
+    .footer-circle {
+        width: 3rem;
+        margin-left: .5rem;
+    }
+}

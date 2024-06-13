@@ -7,3 +7,6 @@
 
 .grid-xl,
 .grid-xxl {grid-template-columns: repeat(6, 1fr);}
+@media only screen and (min-width: 1024px) {
+    .grid-xxl {grid-template-columns: repeat(12, 1fr);}
+}
