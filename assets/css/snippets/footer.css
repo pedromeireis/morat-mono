@@ -3,7 +3,9 @@ footer,
     flex-direction: column;
     z-index: 80;
 }
-body[data-template="home"] footer {
+body[data-template="home"] footer,
+body[data-template="fans"] footer,
+body[data-template="videos"] footer {
     right: 0;
     bottom: 0;
     left: 0;

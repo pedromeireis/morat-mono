@@ -11,7 +11,7 @@ tabs:
           videos:
             type: fields
             fields:
-              videos:
+              yt_videos:
                 label: 📹 Videos
                 type: structure
                 columns:

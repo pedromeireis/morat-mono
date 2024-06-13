@@ -1,0 +1,32 @@
+/* 
+OVERLAY
+*/
+#fans_p-overlay {
+    background: black;
+    z-index: 120;
+}
+#fans_p-overlay[data-status='close'] {transform: translateX(100vw);}
+
+
+/* Button */
+#fans_p-overlay > button {
+    top: 1rem;
+    right: 1rem;
+    rotate: 45deg;
+    z-index: 20;
+}
+
+
+/* Element */
+
+
+/* Nav */
+#fans_p-overlay--nav {z-index: 10;}
+#fans_p-overlay--nav > button {
+    top: calc(var(--vh) * 50);
+    transform: translateY(-50%);
+    opacity: .5;
+}
+
+#fans_p-overlay--nav > button:nth-child(1) {left: 1rem;}
+#fans_p-overlay--nav > button:nth-child(2) {right: 1rem;}

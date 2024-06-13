@@ -57,22 +57,22 @@
     </section>
 
     <div id="music_p-overlay" class="p-fixed p-all padding flex f-column j-center" data-status="close">
-            <button class="p-absolute" onclick="musicOverlayClose()"><img class="icon" src="<?= $kirby->url('assets') . '/media/icons/menu-button.svg' ?>" alt="Overlay close button"></button>
-            
-            <iframe width="100%" height="auto" src="" title="Song on YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="p-absolute" onclick="musicOverlayClose()"><img class="icon" src="<?= $kirby->url('assets') . '/media/icons/menu-button.svg' ?>" alt="Overlay close button"></button>
+        
+        <iframe width="100%" height="auto" src="" title="Song on YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <nav class="p-absolute">
-                <div class="flex j-center margin-b">
-                    <a id="music_p-overlay--spotify" data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/spotify.svg' ?>" alt="Spotify"></a>
-                    <a id="music_p-overlay--youtube" data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/youtube.svg' ?>" alt="YouTube"></a>
-                    <a id="music_p-overlay--apple_music"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/apple_music.svg' ?>" alt="Apple Music"></a>
-                    <a id="music_p-overlay--amazon_music"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/amazon_music.svg' ?>" alt="Amazon Music"></a>
-                    <a id="music_p-overlay--soundcloud"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/soundcloud.svg' ?>" alt="SoundCloud"></a>
-                    <a id="music_p-overlay--tidal"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/tidal.svg' ?>" alt="Tidal"></a>
-                </div>
-                <p data-status="inactive" class="t-grot t-small t-uppercase t-center">Escúchalo en todas las plataformas</p>
-            </nav>
-        </div>
+        <nav class="p-absolute">
+            <div class="flex j-center margin-b">
+                <a id="music_p-overlay--spotify" data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/spotify.svg' ?>" alt="Spotify"></a>
+                <a id="music_p-overlay--youtube" data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/youtube.svg' ?>" alt="YouTube"></a>
+                <a id="music_p-overlay--apple_music"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/apple_music.svg' ?>" alt="Apple Music"></a>
+                <a id="music_p-overlay--amazon_music"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/amazon_music.svg' ?>" alt="Amazon Music"></a>
+                <a id="music_p-overlay--soundcloud"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/soundcloud.svg' ?>" alt="SoundCloud"></a>
+                <a id="music_p-overlay--tidal"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/tidal.svg' ?>" alt="Tidal"></a>
+            </div>
+            <p data-status="inactive" class="t-grot t-small t-uppercase t-center">Escúchalo en todas las plataformas</p>
+        </nav>
+    </div>
 </main>
 
 <?php snippet('footer', ['role' => 'footer']) ?>

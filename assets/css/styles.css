@@ -24,6 +24,7 @@ img.icon-height {
     width: auto;
     height: 2.5rem;
 }
+img.ratio-1_1 {aspect-ratio: 1/1; display: flex; object-fit: cover;}
 img.ratio-5_4 {aspect-ratio: 5/4; display: flex; object-fit: cover;}
 
 
@@ -63,6 +64,7 @@ POSITIONS
 DISPLAY
 */
 .flex {display: flex !important;}
+.f-nowrap {flex-wrap: nowrap;}
 .f-column {flex-direction: column;}
 .j-center {justify-content: center;}
 .j-between {justify-content: space-between;}
