@@ -29,13 +29,12 @@ Typography
     font-size: calc(calc(calc(var(--vh) * 100) - calc(var(--headerHeightM) - var(--footerHeightM))) / 5);
     line-height: 110%;
     letter-spacing: -0.01em;
+    overflow: hidden;
 }
 .t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -2.5);}
 .t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -5);}
 @media only screen and (min-width: 1024px) {
-    .t-cond.t-xlarge {
-        font-size: calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) - .5rem);
-    }
+    .t-cond.t-xlarge {font-size: calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) - .5rem);}
     .t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -3.5);}
     .t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -6.5);}
 }
@@ -49,6 +48,9 @@ Typography
     font-size: 2.75rem;
     line-height: 83%;
     letter-spacing: 0.025em;
+}
+@media only screen and (min-width: 1024px) {
+    .t-cond.t-body {font-size: 4rem;}
 }
 
 .t-grot {font-family: Europa Grotesk;}

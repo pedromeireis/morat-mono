@@ -12,6 +12,9 @@
 /* 
 ELEMENTS
 */
+@media only screen and (min-width: 1024px) {
+    #page-title {text-align: right;}
+}
 a.button {
     background: white;
     color: black;
@@ -35,6 +38,10 @@ img.ratio-5_4 {aspect-ratio: 5/4; display: flex; object-fit: cover;}
 MARGIN AND PADDING
 */
 main.page {margin: var(--headerHeightM) 1rem 1rem;}
+@media only screen and (min-width: 1024px) {
+    main.page {margin: var(--headerHeightD) 1rem 1rem;}
+}
+
 .margin {margin: 1rem;}
 .margin-t {margin-top: 1rem;}
 .margin-t_xsmall {margin-top: .25rem;}

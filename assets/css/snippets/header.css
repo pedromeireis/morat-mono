@@ -7,6 +7,7 @@ header {
 }
 body[data-template="home"] header {background: transparent;}
 @media only screen and (min-width: 1024px) {
+    header {background: linear-gradient(0deg, rgba(0, 0, 0, 0) calc(100% - var(--headerHeightD)), rgba(0, 0, 0, 1) 100%);}
     body[data-template="home"] header {
         right: calc(50vw - .5rem);
         grid-template-columns: repeat(6, 1fr);
