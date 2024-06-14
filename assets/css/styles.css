@@ -17,7 +17,10 @@ ELEMENTS
     z-index: 20;
 }
 @media only screen and (min-width: 1024px) {
-    #page-title {text-align: right;}
+    #page-title {
+        text-align: right;
+        margin-bottom: 2rem;
+    }
 }
 a.button {
     background: white;

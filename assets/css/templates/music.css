@@ -8,7 +8,7 @@ HIGHLIGHT
 }
 @media only screen and (min-width: 1024px) {
     #music_p-highlight {
-        margin-top: calc(calc(calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) + 2rem) - var(--headerHeightD)) * -1);
+        margin-top: calc(1rem - 12vh);
         margin-left: calc(calc(100vw / 12) * 2);
         margin-right: calc(calc(100vw / 12) * 2);
     }
@@ -46,7 +46,7 @@ LIST
 .music_p-item > *:nth-child(4) {grid-column: 2/-1; grid-row: 3;}
 @media only screen and (min-width: 1024px) {
     .music_p-item {margin-bottom: .75rem;}
-    .music_p-year li:nth-of-type(1) {margin-top: calc(calc(calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) - 1.5rem) - var(--headerHeightD)) * -1);}
+    .music_p-year li:nth-of-type(1) {margin-top: calc(calc(calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) + .5rem) - var(--headerHeightD)) * -1);}
 
     .music_p-item > *:nth-child(1) {grid-column: 5/6;}
     .music_p-item > *:nth-child(2) {grid-column: 6/9;}
