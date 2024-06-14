@@ -10,7 +10,7 @@
     <?php endif ?>
     
     <div class="flex f-column">
-        <h3 class="t-cond t-large t-uppercase <?= $size == 'small' ? 't-center' : null ?>"><?= $article->title() ?></h3>
+        <h3 class="t-cond <?= $size == 'large' ? 't-large' : 't-medium' ?> t-uppercase <?= $size == 'small' ? 't-center' : null ?>"><?= $article->title() ?></h3>
         <?php if($size == 'large'): ?>
         <article class="margin-t_xsmall news_p-item--article t-grot t-small"><?= $article->editorial() ?></article>
         <?php endif ?>

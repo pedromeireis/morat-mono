@@ -39,7 +39,8 @@ Typography
     .t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -6.5);}
 }
 
-.t-cond.t-large {
+.t-cond.t-large,
+.t-cond.t-medium {
     font-size: 5rem;
     line-height: 78%;
 }

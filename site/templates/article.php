@@ -6,8 +6,8 @@
 <main class="page grid-xxl">
     <a id="article_p-back" href="<?= $parent->url() ?>" class="margin-b_med"><img class="icon" src="<?= $kirby->url('assets') . '/media/icons/back.svg' ?>" alt="Back to News"></a>
 
-    <article id="article_p-article" class="grid-xl margin-b_xlarge">
-        <div class="padding-t_xsmall margin-b_med">
+    <article id="article_p-article" class="grid-xxl margin-b_xlarge">
+        <div class="padding-t_xsmall margin-b_med flex f-column">
             <p class="t-grot t-small t-uppercase margin-b_small"><?= $date ?></p>
             <h2 class="t-cond t-large t-uppercase"><?= $title ?></h2>
             <div id="article_p-share" class="margin-t flex a-center">
@@ -26,7 +26,7 @@
 
     <nav id="article_p-related">
         <p class="t-grot t-small t-uppercase margin-b_small">Otras Noticias</p>
-        <ul class="grid-xl">
+        <ul class="grid-xxl">
             <?php foreach($related as $article): ?>
             <li class="article_p-related margin-b_large"><?php snippet('article-block', ['article' => $article, 'size' => 'small']) ?></li>
             <?php endforeach ?>
