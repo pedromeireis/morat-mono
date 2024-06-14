@@ -28,6 +28,17 @@ a.button {
     width: fit-content;
     padding: .5rem .5rem .3rem; 
 }
+@media only screen and (min-width: 1024px) {
+    a.button {padding: .5rem .75rem .2rem;}
+}
+@media (hover: hover) {
+    a.button:hover {
+        background-color: black;
+        border: 2px solid white;
+        color: white !important;
+        margin-top: calc(1rem - 4px);
+    }
+}
 
 img.icon {
     width: 3rem;
@@ -37,8 +48,8 @@ img.icon-height {
     width: auto;
     height: 2.5rem;
 }
-img.ratio-1_1 {aspect-ratio: 1/1; display: flex; object-fit: cover;}
-img.ratio-5_4 {aspect-ratio: 5/4; display: flex; object-fit: cover;}
+.ratio-1_1 {aspect-ratio: 1/1; display: flex; object-fit: cover;}
+.ratio-5_4 {aspect-ratio: 5/4; display: flex; object-fit: cover;}
 
 
 /* 

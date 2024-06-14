@@ -4,7 +4,7 @@
 ]) ?>
 
 <main class="page">
-    <h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $page->title() ?></h2>
+    <h2 id="page-title" class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $page->title() ?></h2>
     <nav class="flex margin-t margin-b_large">
         <?php $i = 1;
               foreach($categories as $category): ?>

@@ -1,13 +1,15 @@
-<a href="<?= $article->url() ?>" class="article-block">
+<a href="<?= $article->url() ?>" class="article-block <?= $size == 'large' ? '--large grid-xxl' : '--small grid-m' ?>">
     <?php if($size == 'large'): ?>
     <p class="t-grot t-small t-uppercase margin-b_small"><?= $article->date()->toDate('j F Y') ?></p>
     <?php endif ?>
 
     <?php if($picture = $article->picture()->toFile()): ?>
-    <?php snippet('media-block', ['media' => $picture, 'sizes' => '100vw', 'id' => null, 'class' => 'ratio-5_4 margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
+    <figure class="p-relative ratio-5_4 margin-b stop">
+        <?php snippet('media-block', ['media' => $picture, 'sizes' => '100vw', 'id' => null, 'class' => 'p-absolute p-all ratio-5_4 ', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
+    </figure>
     <?php endif ?>
     
-    <div>
+    <div class="flex f-column">
         <h3 class="t-cond t-large t-uppercase <?= $size == 'small' ? 't-center' : null ?>"><?= $article->title() ?></h3>
         <?php if($size == 'large'): ?>
         <article class="margin-t_xsmall news_p-item--article t-grot t-small"><?= $article->editorial() ?></article>

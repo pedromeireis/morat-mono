@@ -87,18 +87,20 @@ function musicOverlayClose() {
 }
 
 function musicItemEnter(item) {
-    cover.setAttribute('src', item.getAttribute('data-cover'))
-    cover.classList.remove('hide')
+    if (window.matchMedia('(hover: hover)').matches && item.getAttribute('data-cover')) {
+        cover.setAttribute('src', item.getAttribute('data-cover'))
+        cover.classList.remove('hide')
+    }
 }
 
-function musicItemMove() {
+function musicItemMove(item) {
     if (window.matchMedia('(hover: hover)').matches) {
-        cover.style.top = event.clientY + 'px'
-        cover.style.left = event.clientX + 'px'
+        cover.style.top = (event.clientY + 24) + 'px'
+        cover.style.left = (event.clientX + 24) + 'px'
     }
 }
 
 function musicItemLeave() {
-    // cover.setAttribute('src', '')
+    cover.setAttribute('src', '')
     cover.classList.add('hide')
 }
