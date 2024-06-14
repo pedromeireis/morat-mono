@@ -1,9 +1,19 @@
+@media only screen and (min-width: 1024px) {
+    main>nav {
+        margin-bottom: 2rem !important;
+    }
+}
 /* 
 OVERLAY
 */
 #fans_p-overlay {
     background: black;
     z-index: 120;
+}
+@media only screen and (min-width: 1024px) {
+    #fans_p-overlay {
+        padding: 4rem calc(calc(100vw / 12) * 2);
+    }
 }
 #fans_p-overlay[data-status='close'] {transform: translateX(100vw);}
 
@@ -18,7 +28,11 @@ OVERLAY
 
 
 /* Element */
-
+#fans_p-overlay > img,
+#fans_p-overlay > video {
+    max-height: 100%;
+    object-fit: contain;
+}
 
 /* Nav */
 #fans_p-overlay--nav {z-index: 10;}

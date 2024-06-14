@@ -7,7 +7,7 @@
 ], ['defer' => true]) ?>
 
 <main class="page">
-    <h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $parent->title() ?></h2>
+    <h2 id="page-title" class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $parent->title() ?></h2>
     <nav class="flex margin-t margin-b_large">
         <?php foreach($siblings as $sibling): ?>
         <a href="<?= $sibling->url() ?>" class="t-grot t-small t-uppercase <?= $sibling == $page ? 't-underline' : null ?>"><?= $sibling->title() ?></a>

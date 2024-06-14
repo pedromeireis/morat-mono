@@ -4,16 +4,29 @@ const items = Array.from(videosGallery.querySelectorAll('.videos_p-gallery--item
 function videosScroll() {
     for (const item of items) {
         let transform
-        transform = item.getBoundingClientRect().left - ((window.innerWidth / 2) - ((window.innerWidth - 48) / 2)) //half of screen - half of video
+
+        if(window.innerWidth < 1024) {
+            transform = item.getBoundingClientRect().left - ((window.innerWidth / 2) - ((window.innerWidth - 48) / 2)) //half of screen - half of video
+        } else {
+            transform = item.getBoundingClientRect().left - ((window.innerWidth / 2) - ((window.innerWidth * .66) / 2)) //half of screen - half of video
+        }
 
         if (transform < 0) {
             item.style.transform = 'translateZ(' + transform + 'px)'
             item.style.zIndex = Math.floor(transform)
-            item.style.opacity = 1 - (transform * -.002)
+            if (window.innerWidth < 1024) {
+                item.style.opacity = 1 - (transform * -.002)
+            } else {
+                item.style.opacity = 1 - (transform * -.001)
+            }
         } else {
             item.style.transform = 'translateZ(' + (transform * -1) + 'px)'
             item.style.zIndex = Math.floor(transform * -1)
-            item.style.opacity = 1 - (transform * .002)
+            if (window.innerWidth < 1024) {
+                item.style.opacity = 1 - (transform * .002)
+            } else {
+                item.style.opacity = 1 - (transform * .001)
+            }
         }
     }
 }

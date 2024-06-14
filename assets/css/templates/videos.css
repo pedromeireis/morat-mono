@@ -1,5 +1,10 @@
 main > h2,
 main > nav {z-index: 20;}
+@media only screen and (min-width: 1024px) {
+    main>nav {
+        margin-bottom: 2rem !important;
+    }
+}
 
 /* 
 GALLERY
@@ -14,12 +19,23 @@ GALLERY
     overflow-x: auto;
     z-index: 10;
 }
+@media only screen and (min-width: 1024px) {
+    #videos_p-gallery {
+        padding: 1rem 15vw 1rem;
+    }
+}
 
 .videos_p-gallery--item {
     min-width: calc(100vw - 4rem);
     max-width: calc(100vw - 4rem);
     aspect-ratio: 16/9;
     height: auto;
+}
+@media only screen and (min-width: 1024px) {
+    .videos_p-gallery--item {
+        min-width: calc(66vw);
+        max-width: calc(66vw);
+    }
 }
 .videos_p-gallery--item iframe {width: 100%;}
 

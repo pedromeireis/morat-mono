@@ -1,5 +1,13 @@
+@media only screen and (min-width: 1024px) {
+    main>nav {
+        margin-bottom: 2rem !important;
+    }
+}
 .fan_art_p-grid {
     columns: 2;
     column-gap: 1rem;
+}
+@media only screen and (min-width: 1024px) {
+    .fan_art_p-grid {columns: 6;}
 }
 .fans_p-item {width: 100%;}

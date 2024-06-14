@@ -1,1 +1,9 @@
+@media only screen and (min-width: 1024px) {
+    main>nav {
+        margin-bottom: 2rem !important;
+    }
+}
 .fans_p-item {grid-column: span 3;}
+@media only screen and (min-width: 1024px) {
+    .fans_p-item {grid-column: span 2;}
+}
