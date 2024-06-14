@@ -6,6 +6,25 @@ HIGHLIGHT
     max-width: 100%;
     height: auto;
 }
+@media only screen and (min-width: 1024px) {
+    #music_p-highlight {
+        margin-top: calc(calc(calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) + 2rem) - var(--headerHeightD)) * -1);
+        margin-left: calc(calc(100vw / 12) * 2);
+        margin-right: calc(calc(100vw / 12) * 2);
+    }
+
+    #music_p-highlight > div.margin-b_small {margin-bottom: 1rem;}
+    
+    #music_p-highlight--streaming {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+    }
+    #music_p-highlight--streaming p {width: 100%;}
+    #music_p-highlight--streaming nav {margin-top: 0;}
+    #music_p-highlight--streaming nav div {justify-content: end;}
+    #music_p-highlight--streaming nav p {width: fit-content; white-space: nowrap;}
+}
 
 
 /* 
@@ -14,18 +33,35 @@ LIST
 .music_p-year h3 {
     position: sticky;
     top: var(--headerHeightM);
+    width: fit-content;
+}
+@media only screen and (min-width: 1024px) {
+    .music_p-year h3 {top: calc(5vw + 2rem);}
 }
 
+.music_p-item {cursor: pointer;}
 .music_p-item > *:nth-child(1) {grid-column: 1/2; grid-row: 1;}
 .music_p-item > *:nth-child(2) {grid-column: 2/-1; grid-row: 1;}
 .music_p-item > *:nth-child(3) {grid-column: 2/-1; grid-row: 2;}
 .music_p-item > *:nth-child(4) {grid-column: 2/-1; grid-row: 3;}
+@media only screen and (min-width: 1024px) {
+    .music_p-item {margin-bottom: .75rem;}
+    .music_p-year li:nth-of-type(1) {margin-top: calc(calc(calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) - 1.5rem) - var(--headerHeightD)) * -1);}
+
+    .music_p-item > *:nth-child(1) {grid-column: 5/6;}
+    .music_p-item > *:nth-child(2) {grid-column: 6/9;}
+    .music_p-item > *:nth-child(3) {grid-column: 9/10; grid-row: 1;}
+    .music_p-item > *:nth-child(4) {grid-column: 10/-1; grid-row: 1;}
+}
 
 
 /* 
 OVERLAY
 */
 #music_p-overlay[data-status='close'] {transform: translateX(100vw);}
+@media only screen and (min-width: 1024px) {
+    #music_p-overlay {padding: 1rem calc(calc(100vw / 12) * 2);}
+}
 /* Button */
 #music_p-overlay > button {
     top: 1rem;
@@ -51,3 +87,14 @@ OVERLAY
     left: 1rem;
 }
 #music_p-overlay > nav a[data-status='inactive'] {display: none;}
+
+
+/* 
+COVER
+*/
+#music_p-cover {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    z-index: 120;
+}

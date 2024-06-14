@@ -12,6 +12,10 @@
 /* 
 ELEMENTS
 */
+#page-title {
+    position: relative;
+    z-index: 20;
+}
 @media only screen and (min-width: 1024px) {
     #page-title {text-align: right;}
 }
@@ -52,6 +56,9 @@ main.page {margin: var(--headerHeightM) 1rem 1rem;}
 .margin-b_small {margin-bottom: .5rem;}
 .margin-b_med {margin-bottom: 2rem;}
 .margin-b_large {margin-bottom: 6rem;}
+@media only screen and (min-width: 1024px) {
+    .margin-b_large {margin-bottom: 12rem;}
+}
 .margin-b_xlarge {margin-bottom: 10rem;}
 
 .padding {padding: 1rem;}

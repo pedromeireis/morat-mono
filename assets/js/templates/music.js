@@ -1,5 +1,6 @@
 const overlay = document.querySelector('#music_p-overlay')
 const songItems = Array.from(document.querySelectorAll('.music_p-item'))
+const cover = document.querySelector('#music_p-cover')
 
 let music
 fetch(dataURL + '/music.json')
@@ -83,4 +84,21 @@ function musicOverlayClose() {
         overlay.setAttribute('data-status', 'close')
         body.classList.remove('stop')
     }, 1000);
+}
+
+function musicItemEnter(item) {
+    cover.setAttribute('src', item.getAttribute('data-cover'))
+    cover.classList.remove('hide')
+}
+
+function musicItemMove() {
+    if (window.matchMedia('(hover: hover)').matches) {
+        cover.style.top = event.clientY + 'px'
+        cover.style.left = event.clientX + 'px'
+    }
+}
+
+function musicItemLeave() {
+    // cover.setAttribute('src', '')
+    cover.classList.add('hide')
 }

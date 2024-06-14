@@ -5,12 +5,12 @@
 ], ['defer' => true]) ?>
 
 <main class="page">
-    <h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall margin-b_large"><?= $page->title() ?></h2>
+    <h2 id="page-title" class="t-cond t-xlarge t-uppercase padding-t_xsmall margin-b_large"><?= $page->title() ?></h2>
 
     <section id="music_p-highlight" class="margin-b_large">
         <p class="t-grot t-small t-uppercase margin-b_small">Último lanzamiento</p>
         <div class="margin-b_small"><?= video($highlight->youtube()) ?></div>
-        <div class="flex f-column">
+        <div id="music_p-highlight--streaming" class="flex f-column">
             <p class="t-cond t-large t-uppercase"><?= $highlight->title() ?>, <?= $highlight->year() ?></p>
             <nav class="margin-t_med">
                 <div class="flex j-center margin-b">
@@ -44,7 +44,7 @@
         <h3 class="t-cond t-xlarge t-uppercase padding-t_xsmall margin-b_med"><?= $year ?></h3>
         <?php $i = 1;
               foreach($music->filter('year', $year) as $song): ?>
-        <li class="music_p-item grid-xxl margin-b_med" <?= $cover = $song->cover()->toFile() ? 'data-cover="' . $song->cover()->toFile()->url() . '"'  : null ?> onclick="musicOverlayOpen(this)">
+        <li class="music_p-item grid-xxl margin-b_med" <?= $cover = $song->cover()->toFile() ? 'data-cover="' . $song->cover()->toFile()->url() . '"'  : null ?> onclick="musicOverlayOpen(this)" onmouseenter="musicItemEnter(this)" onmousemove="musicItemMove()" onmouseleave="musicItemLeave()">
             <p class="t-cond t-body t-uppercase"><?= $i ?></p>
             <p class="t-cond t-body t-uppercase"><?= $song->title() ?></p>
             <p class="t-cond t-body t-uppercase"><?= $song->duration() ?></p>
@@ -73,6 +73,8 @@
             <p data-status="inactive" class="t-grot t-small t-uppercase t-center">Escúchalo en todas las plataformas</p>
         </nav>
     </div>
+
+    <img id="music_p-cover" class="p-fixed hide">
 </main>
 
 <?php snippet('footer', ['role' => 'footer']) ?>

@@ -5,7 +5,7 @@
 .tour_p-item > *:nth-child(6) {grid-column: 1/-1;}
 
 @media only screen and (min-width: 1024px) {
-    .tour_p-item {margin-bottom: .5rem;}
+    .tour_p-item {margin-bottom: .75rem;}
 
     .tour_p-item > * {
         

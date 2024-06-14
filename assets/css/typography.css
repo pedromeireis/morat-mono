@@ -43,6 +43,9 @@ Typography
     font-size: 5rem;
     line-height: 78%;
 }
+@media only screen and (min-width: 1024px) {
+    .t-cond.t-large {font-size: 8rem;}
+}
 
 .t-cond.t-body {
     font-size: 2.75rem;

@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <main class="page">
-    <h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall margin-b_large"><?= $page->title() ?></h2>
+    <h2 id="page-title" class="t-cond t-xlarge t-uppercase padding-t_xsmall margin-b_large"><?= $page->title() ?></h2>
 
     <ul class="grid-xxl">
     <?php foreach($merch as $product): ?>
