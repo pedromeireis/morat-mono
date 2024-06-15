@@ -18,7 +18,7 @@
 
     <section class="fan_art_p-grid">
     <?php foreach($files as $picture): ?>
-        <button class="fans_p-item" data-url="<?= $picture->url() ?>" data-type="<?= $picture->type() ?>" onclick="fansOverlayOpen(this)"><?php snippet('media-block', ['media' => $picture, 'sizes' => '50vw', 'id' => null, 'class' => 'margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?></button>
+        <button class="fans_p-item" data-url="<?= $picture->url() ?>" data-type="<?= $picture->type() ?>" onclick="fansOverlayOpen(this)"><?php snippet('media-block', ['media' => $picture, 'sizes' => '(min-width: 1024px) 20vw, 50vw', 'id' => null, 'class' => 'margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?></button>
     <?php endforeach ?>
     </section>
 

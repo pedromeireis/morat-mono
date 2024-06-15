@@ -1,3 +1,4 @@
+/* HERO */
 #home_p-hero {
     width: 100%;
     height: 100%;
@@ -6,6 +7,8 @@
     z-index: 0;
 }
 
+
+/* MENU */
 #home_p-menu {
     min-height: calc(var(--vh) * 100);
     max-height: calc(var(--vh) * 100);
@@ -15,12 +18,86 @@
 #home_p-menu a {text-align: center;}
 @media only screen and (min-width: 1024px) {
     #home_p-menu {
+        width: fit-content;
         padding: 1rem 1rem var(--footerHeightD);
         justify-content: start;
         align-items: end;
+        margin-left: auto;
     }
     #home_p-menu a {
         text-align: right;
         width: fit-content;
     }
 }
+@media (hover: hover) {
+    #home_p-menu:hover a {opacity: .5;}
+    #home_p-menu a:hover {opacity: 1 !important;}
+}
+
+/* BOARD */
+.home_p-board {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+}
+
+@media only screen and (min-width: 1024px) {
+    .home_p-board {padding: calc(5vw + 3rem) calc(52vh + 2rem) calc(var(--footerHeightD) + 4rem) 2rem;}
+    .home_p-board[data-status="close"] {display: none;}
+    .home_p-board[data-status="open"] {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+    }
+
+    /* TOUR */
+    #home_p-menu--tour-board {width: 100%; padding-right: 2rem;}
+    .home_p-tour_b--item.grid-xxl p:nth-child(1) {grid-column: 1/4;}
+    .home_p-tour_b--item.grid-xxl p:nth-child(2) {grid-column: 4/6;}
+    .home_p-tour_b--item.grid-xxl p:nth-child(3) {grid-column: 6/7;}
+    .home_p-tour_b--item.grid-xxl p:nth-child(4) {grid-column: 7/-1;}
+
+    /* MUSIC */
+    #home_p-menu--music-board img.ratio-1_1,
+    #home_p-menu--music-board video.ratio-1_1 {
+        width: 32rem;
+        height: 32rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* MERCH */
+    #home_p-menu--merch-board > ul {width: 100%;}
+    .home_p-merch_b--product {
+        min-width: 18vw;
+        max-width: 18vw;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .home_p-merch_b--product > *:first-child {
+        width: 100%;
+        min-height: 18vw;
+        max-height: 18vw;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    /* NEWS */
+    #home_p-menu--news-board .article-block {
+        min-width: 40rem;
+        max-width: 40rem;
+    }
+
+    /* FANS */
+    #home_p-menu--fans-board ul {width: 100%;}
+    #home_p-menu--fans-board ul * {grid-column: span 2;}
+}
+/* @media (hover: none) {
+    .home_p-board {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+} */

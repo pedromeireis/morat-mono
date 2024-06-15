@@ -1,6 +1,34 @@
 const body = document.querySelector('body')
 const dataURL = body.getAttribute('data-url')
 
+const newsletterBg = document.querySelector('#newsletter_b-bg')
+const newsletterForm = document.querySelector('#newsletter_b-form')
+
+// Session
+if (sessionStorage.getItem('data-visit') != 'true') {
+    sessionStorage.setItem('data-visit', 'false')
+
+    body.classList.add('stop')
+    body.setAttribute('data-visit', 'false')
+
+    gsap.from(newsletterBg, {
+        opacity: 0,
+        ease: 'power2.out',
+        duration: 1,
+    })
+
+    gsap.from(newsletterForm, {
+        top: '-100%',
+        ease: 'power2.out',
+        duration: 1,
+    })
+} else {
+    sessionStorage.setItem('data-visit', 'true')
+
+    body.classList.remove('stop')
+    body.setAttribute('data-visit', 'true')
+}
+
 // Set VH
 function setVH() {
     const vh = window.innerHeight * 0.01;

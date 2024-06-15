@@ -7,7 +7,7 @@
     <?php foreach($merch as $product): ?>
     <li class="merch_p-item margin-b_large flex f-column a-center">
         <?php if($picture = $product->picture()->toFile()): ?>
-        <?php snippet('media-block', ['media' => $picture, 'sizes' => '100vw', 'id' => null, 'class' => 'margin-b_small', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
+        <?php snippet('media-block', ['media' => $picture, 'sizes' => '(min-width: 50vw) 25vw, 100vw', 'id' => null, 'class' => 'margin-b_small', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
         <?php endif ?>
         <p class="t-grot t-small t-uppercase t-center"><?= $product->product() ?></p>
         <p class="t-grot t-small t-uppercase t-center"><?= $product->price() ?>€</p>

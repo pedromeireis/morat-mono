@@ -5,7 +5,7 @@
 
     <?php if($picture = $article->picture()->toFile()): ?>
     <figure class="p-relative ratio-5_4 margin-b stop">
-        <?php snippet('media-block', ['media' => $picture, 'sizes' => '100vw', 'id' => null, 'class' => 'p-absolute p-all ratio-5_4 ', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
+        <?php snippet('media-block', ['media' => $picture, 'sizes' => '(min-width: 1024px) 50vw, 100vw', 'id' => null, 'class' => 'p-absolute p-all ratio-5_4 ', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
     </figure>
     <?php endif ?>
     

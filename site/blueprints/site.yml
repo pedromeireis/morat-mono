@@ -21,6 +21,17 @@ tabs:
             image:
               query: page.icon
               back: white
+          website:
+            type: fields
+            fields:
+              marquee:
+                label: 🚨 Marquee
+                type: text
+                counter: false
+              newsletter:
+                label: 📰 Newsletter
+                type: link
+
       - width: 1/2
         sections:
           home_page:
@@ -34,10 +45,7 @@ tabs:
                   ratio: 16/9
                   cover: true
                   back: black
-              marquee:
-                label: 🚨 Marquee
-                type: text
-                counter: false
+
   settings:
     label: Settings
     icon: cog

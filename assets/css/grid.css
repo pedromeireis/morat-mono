@@ -1,3 +1,4 @@
+.grid-s,
 .grid-m,
 .grid-xl,
 .grid-xxl {
@@ -6,9 +7,11 @@
     grid-auto-rows: min-content;
 }
 
+.grid-s,
 .grid-m,
 .grid-xl,
 .grid-xxl {grid-template-columns: repeat(6, 1fr);}
 @media only screen and (min-width: 1024px) {
+    .grid-xl {grid-template-columns: repeat(8, 1fr);}
     .grid-xxl {grid-template-columns: repeat(12, 1fr);}
 }

@@ -10,6 +10,13 @@
 
 
 /* 
+COLORS
+*/
+.c-black {color: black !important;}
+.bg-blue {background: var(--c-blue);}
+
+
+/* 
 ELEMENTS
 */
 #page-title {
@@ -71,12 +78,14 @@ main.page {margin: var(--headerHeightM) 1rem 1rem;}
 .margin-b_med {margin-bottom: 2rem;}
 .margin-b_large {margin-bottom: 6rem;}
 .margin-b_xlarge {margin-bottom: 10rem;}
+.margin-l {margin-left: 1rem;}
 @media only screen and (min-width: 1024px) {
     .margin-b_large {margin-bottom: 12rem;}
     .margin-b_xlarge {margin-bottom: 16rem;}
 }
 
 .padding {padding: 1rem;}
+.padding-medium {padding: 1.5rem;}
 .padding-v {padding-top: 1rem; padding-bottom: 1rem;}
 .padding-h {padding-right: 1rem; padding-left: 1rem;}
 .padding-t_xsmall {padding-top: .25rem;}
@@ -96,11 +105,13 @@ POSITIONS
 DISPLAY
 */
 .flex {display: flex !important;}
+.f-wrap {flex-wrap: wrap;}
 .f-nowrap {flex-wrap: nowrap;}
 .f-column {flex-direction: column;}
 .j-center {justify-content: center;}
 .j-end {justify-content: end;}
 .j-between {justify-content: space-between;}
+.j-evenly {justify-content: space-evenly;}
 .a-center {align-items: center;}
 
 .f-margin {margin: 0 .7rem;}
@@ -109,6 +120,8 @@ DISPLAY
 /* 
 STATUS
 */
+.v-hide {visibility: hidden;}
+
 .hide {display: none;}
 .hide-scrollbar::-webkit-scrollbar {display: none;}
 .hide-scrollbar {-ms-overflow-style: none;scrollbar-width: none;}
