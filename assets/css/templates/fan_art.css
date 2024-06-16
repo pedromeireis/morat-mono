@@ -1,6 +1,8 @@
 @media only screen and (min-width: 1024px) {
     main>nav {
+        position: relative;
         margin-bottom: 2rem !important;
+        z-index: 40;    
     }
 }
 .fan_art_p-grid {

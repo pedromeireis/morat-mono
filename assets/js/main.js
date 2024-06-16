@@ -29,6 +29,18 @@ if (sessionStorage.getItem('data-visit') != 'true') {
     body.setAttribute('data-visit', 'true')
 }
 
+// GSAP
+// const gsapAnis = gsap.utils.toArray('.gsap-ani')
+// gsapAnis.forEach(el => {
+//     gsap.from(el, {
+//         scrollTrigger: el,
+//         autoAlpha: 0,
+//         y: 84,
+//         ease: 'power1.inOut',
+//         duartion: 1.5
+//     })
+// });
+
 // Set VH
 function setVH() {
     const vh = window.innerHeight * 0.01;

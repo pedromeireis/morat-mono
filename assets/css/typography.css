@@ -21,7 +21,7 @@ Import typefaces
 /* 
 Typography
 */
-.t-cond {font-family: ABC Gravity;}
+.t-cond {font-family: ABC Gravity; font-feature-settings: 'calt' 1, 'rlig' 1, 'rvrn' 1, 'kern' 1, 'rclt' 1, 'case' 1, 'ss16' 1;}
 .t-cond::before {content: ""; display: table;}
 .t-cond::after {content: ""; display: table;}
 

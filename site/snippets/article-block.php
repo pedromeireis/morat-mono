@@ -14,6 +14,6 @@
         <?php if($size == 'large'): ?>
         <article class="margin-t_xsmall news_p-item--article t-grot t-small"><?= $article->editorial() ?></article>
         <?php endif ?>
-        <p class="news_p-item--article t-grot t-small <?= $size == 'small' ? 't-center t-uppercase margin-t_small' : 'margin-t_med' ?>">Leer más /</p>
+        <p class="news_p-item--article t-grot t-small t-uppercase <?= $size == 'small' ? 't-center margin-t_small' : 'margin-t_med' ?>">Leer más /</p>
     </div>
 </a>

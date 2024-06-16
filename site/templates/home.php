@@ -11,16 +11,26 @@
     <?php snippet('media-block', ['media' => $picture, 'sizes' => '100vw', 'id' => 'home_p-hero', 'class' => 'p-fixed p-all flex', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
     <?php endif ?>
 
-    <section id="home_p-menu" class="flex f-column j-center p-relative">
-        <a id="home_p-menu--tour" data-status="inactive" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide()" href="<?= page('tour')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('tour')->title() ?></a>
-        <a id="home_p-menu--music" data-status="inactive" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide()" href="<?= page('music')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('music')->title() ?></a>
-        <a id="home_p-menu--merch" data-status="inactive" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide()" href="<?= page('merch')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('merch')->title() ?></a>
-        <a id="home_p-menu--news" data-status="inactive" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide()" href="<?= page('news')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('news')->title() ?></a>
-        <a id="home_p-menu--fans" data-status="inactive" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide()" href="<?= page('fans/videos')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('fans')->title() ?></a>
+    <section id="home_p-menu" class="flex f-column j-center p-relative" onmouseenter="homeMenuHover()" onmouseleave="homeMenuUnover()">
+        <div id="home_p-menu--tour"  class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
+            <a href="<?= page('tour')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('tour')->title() ?></a>
+        </div>
+        <div id="home_p-menu--music" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
+            <a href="<?= page('music')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('music')->title() ?></a>
+        </div>
+        <div id="home_p-menu--merch" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
+            <a href="<?= page('merch')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('merch')->title() ?></a>
+        </div>
+        <div id="home_p-menu--news" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
+            <a href="<?= page('news')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('news')->title() ?></a>
+        </div>
+        <div id="home_p-menu--fans" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
+            <a href="<?= page('fans/videos')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('fans')->title() ?></a>
+        </div>
     </section>
 
     <!-- BOARDS -->
-     <div id="home_p-menu--tour-board" data-status="close" class="home_p-board p-fixed p-all f-column">
+     <div id="home_p-menu--tour-board" class="home_p-board p-fixed p-all f-column">
         <p class="t-grot t-xsmall t-uppercase margin-b_small">Próximo concierto del tour:</p>
         <?php $i = 0;
               foreach(page('tour')->tour()->toStructure()->paginate(8) as $concert): ?>
@@ -43,7 +53,7 @@
         <?php $i++;
               endforeach ?>
      </div>
-     <div id="home_p-menu--music-board" data-status="close" class="home_p-board p-fixed p-all f-column j-center a-center">
+     <div id="home_p-menu--music-board" class="home_p-board p-fixed p-all f-column j-center a-center">
         <?php if($song = page('music')->music()->toStructure()->first()): ?>
         <div class="flex f-column">
             <p class="t-grot t-xsmall t-uppercase t-center margin-b_small">Escucha el último lanzamiento</p>
@@ -63,7 +73,7 @@
         </div>
         <?php endif ?>
      </div>
-     <div id="home_p-menu--merch-board" data-status="close" class="home_p-board p-fixed p-all f-column j-center a-center">
+     <div id="home_p-menu--merch-board" class="home_p-board p-fixed p-all f-column j-center a-center">
         <ul class="flex f-wrap j-evenly">
         <?php foreach(page('merch')->merch()->toStructure()->paginate(6) as $product): ?>
             <li class="home_p-merch_b--product flex f-column margin-b_med">
@@ -75,12 +85,12 @@
         <?php endforeach ?>
         </ul>
      </div>
-     <div id="home_p-menu--news-board" data-status="close" class="home_p-board p-fixed p-all f-column j-center a-center">
+     <div id="home_p-menu--news-board" class="home_p-board p-fixed p-all f-column j-center a-center">
         <?php foreach(page('news')->children()->listed()->paginate(1) as $article): ?>
         <?php snippet('article-block', ['article' => $article, 'size' => 'small']) ?>
         <?php endforeach ?>
      </div>
-     <div id="home_p-menu--fans-board" data-status="close" class="home_p-board p-fixed p-all f-column a-center">
+     <div id="home_p-menu--fans-board" class="home_p-board p-fixed p-all f-column a-center">
         <ul class="grid-xl">
         <?php foreach(page('fans/gallery')->files()->sortBy('sort', 'asc')->paginate(12) as $picture): ?>
         <?php snippet('media-block', ['media' => $picture, 'sizes' => '25vw', 'id' => null, 'class' => 'ratio-1_1 flex margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
