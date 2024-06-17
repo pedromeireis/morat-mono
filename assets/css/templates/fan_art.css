@@ -1,3 +1,4 @@
+main>nav {position: relative; z-index: 40;}
 @media only screen and (min-width: 1024px) {
     main>nav {
         position: relative;
