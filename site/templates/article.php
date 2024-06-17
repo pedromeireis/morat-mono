@@ -18,7 +18,7 @@
         </div>
         
         <?php if($picture = $page->picture()->toFile()): ?>
-        <?php snippet('media-block', ['media' => $picture, 'sizes' => '(min-width: 1024px) 50vw, 100vw', 'id' => null, 'class' => 'flex ratio-4_5', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
+        <?php snippet('media-block', ['media' => $picture, 'sizes' => '(min-width: 1024px) 50vw, 100vw', 'id' => null, 'class' => 'flex ratio-5_4', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
         <?php endif ?>
 
         <div class="margin-t t-grot t-small k-text"><?= $editorial ?></div>

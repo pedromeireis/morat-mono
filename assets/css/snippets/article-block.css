@@ -29,7 +29,7 @@
         max-height: 7rem;
     }
     
-    .article-block p {margin-top: auto;}
+    .article-block.--large p {margin-top: auto;}
 }
 
 @media (hover: hover) {

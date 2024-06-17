@@ -16,9 +16,9 @@
         <a href="<?= $forum ?>" target="_blank" class="t-grot t-small t-uppercase">Foro</a>
     </nav>
 
-    <section class="fan_art_p-grid">
+    <section class="grid-xxl">
     <?php foreach($files as $picture): ?>
-        <button class="fans_p-item" data-url="<?= $picture->url() ?>" data-type="<?= $picture->type() ?>" onclick="fansOverlayOpen(this)"><?php snippet('media-block', ['media' => $picture, 'sizes' => '(min-width: 1024px) 20vw, 50vw', 'id' => null, 'class' => 'margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?></button>
+        <button class="fans_p-item flex f-column margin-b" data-url="<?= $picture->url() ?>" data-type="<?= $picture->type() ?>" onclick="fansOverlayOpen(this)"><?php snippet('media-block', ['media' => $picture, 'sizes' => '(min-width: 1024px) 20vw, 50vw', 'id' => null, 'class' => null, 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?></button>
     <?php endforeach ?>
     </section>
 

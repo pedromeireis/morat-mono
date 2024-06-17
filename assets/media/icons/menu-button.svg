@@ -1,4 +1,12 @@
-<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="18" y1="1.31134e-07" x2="18" y2="36" stroke="white" stroke-width="6"/>
-<line y1="17" x2="36" y2="17" stroke="white" stroke-width="6"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="36 14 21 14 21 0 15 0 15 14 0 14 0 20 15 20 15 36 21 36 21 20 36 20 36 14"/>
 </svg>

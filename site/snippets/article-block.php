@@ -1,4 +1,4 @@
-<a href="<?= $article->url() ?>" class="article-block <?= $size == 'large' ? '--large grid-xxl' : '--small grid-m' ?>">
+<a href="<?= $article->url() ?>" class="article-block <?= $size == 'large' ? '--large grid-xxl' : '--small' ?>">
     <?php if($size == 'large'): ?>
     <p class="t-grot t-small t-uppercase margin-b_small"><?= $article->date()->toDate('j F Y') ?></p>
     <?php endif ?>
@@ -14,6 +14,6 @@
         <?php if($size == 'large'): ?>
         <article class="margin-t_xsmall news_p-item--article t-grot t-small"><?= $article->editorial() ?></article>
         <?php endif ?>
-        <p class="news_p-item--article t-grot t-small t-uppercase <?= $size == 'small' ? 't-center margin-t_small' : 'margin-t_med' ?>">Leer más /</p>
+        <p class="news_p-item--article t-grot t-small t-uppercase <?= $size == 'small' ? 't-center margin-t' : 'margin-t_med' ?>">Leer más /</p>
     </div>
 </a>

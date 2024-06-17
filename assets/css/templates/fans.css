@@ -1,7 +1,17 @@
-main>nav {position: relative; z-index: 40;}
+main>nav {
+    position: sticky;
+    top: calc(var(--headerHeightM) + 14.75vh + 1rem);
+    z-index: 40;
+}
+
 @media only screen and (min-width: 1024px) {
     main>nav {
-        margin-bottom: 2rem !important;
+        top: calc(5vw + 2rem);
+        margin-bottom: 4rem !important;
+    }
+    
+    #page-title {
+        margin-bottom: 0;
     }
 }
 /* 

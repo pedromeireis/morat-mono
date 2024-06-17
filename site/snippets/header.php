@@ -1,8 +1,8 @@
 <?php snippet('head') ?>
 
 <header class="p-fixed grid-xxl padding">
-    <button id="header-menu_button" class="hide-d" onclick="menuToggle(this)" data-status="close"><img class="icon" src="<?= $kirby->url('assets') . '/media/icons/menu-button.svg' ?>" alt="Header menu button"></button>
     <a href="<?= $site->url() ?>" id="header-logo"><img src="<?= $kirby->url('assets') . '/media/morat-logo.svg' ?>" alt="Morat logo"></a>
+    <button id="header-menu_button" class="hide-d" onclick="menuToggle(this)" data-status="close"><img class="icon" src="<?= $kirby->url('assets') . '/media/icons/menu-button.svg' ?>" alt="Header menu button"></button>
     <?php if($page != page('home')): ?>
     <nav id="header-menu_pages" class="hide-m_t j-end">
         <a href="<?= page('tour')->url() ?>" class="t-grot t-small t-uppercase <?= $page == page('tour') ? 't-underline' : null ?>"><?= page('tour')->title() ?></a>

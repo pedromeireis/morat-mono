@@ -3,7 +3,7 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
 
 #newsletter_b-bg {
     background: black;
-    opacity: .9;
+    opacity: .5;
     z-index: 200;
 }
 
@@ -11,6 +11,7 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
     top: 50vh;
     left: 1rem;
     transform: translateY(-50%);
+    padding-top: 1.5rem;
     min-width: calc(100vw - 2rem);
     max-width: calc(100vw - 2rem);
     z-index: 220;
@@ -19,23 +20,30 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
     #newsletter_b-form {
         left: 50vw;
         transform: translateX(-50%) translateY(-50%);
-        min-width: 48rem;
-        max-width: 48rem;
-        padding: 1.5rem;
+        min-width: 58rem;
+        max-width: 58rem;
+        padding: 2.2rem 1.5rem 1.5rem;
     }
 }
-
-#newsletter_b-form > p:nth-child(1) {font-size: 21.7vw;}
-#newsletter_b-form > p:nth-child(2) {
+#newsletter_b-form > button {
+    top: -1rem;
+    right: -1rem;
+    background: black;
+    border-radius: 4rem;
+    border: 2px solid var(--c-blue);
+} 
+#newsletter_b-form > p:nth-child(2) {font-size: 21.7vw;}
+#newsletter_b-form > p:nth-child(3) {
     font-size: 9.6vw;
     margin: -.5vw 0 2rem;
 }
 #newsletter_b-form > a {
+    font-size: 24.5vw !important;
     width: 100%;
     border: 6px solid black;
     font-size: 4rem;
-    margin-bottom: 1rem;
-    padding-bottom: .25rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
 }
 #newsletter_b-form>p:nth-child(4) {
     font-size: 1rem;
@@ -43,10 +51,14 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
 }
 
 @media only screen and (min-width: 1024px) {
-    #newsletter_b-form > p:nth-child(1) {font-size: 11rem;}
-    #newsletter_b-form > p:nth-child(2) {
-        font-size: 4.9rem;
+    #newsletter_b-form > p:nth-child(2) {font-size: 13.25rem;}
+    #newsletter_b-form > p:nth-child(3) {
+        font-size: 5.9rem;
         margin-top: -.5rem;
+    }
+    #newsletter_b-form > a {
+        font-size: 16rem !important;
+        padding-top: 2rem;
     }
 }
 @media (hover: hover) {

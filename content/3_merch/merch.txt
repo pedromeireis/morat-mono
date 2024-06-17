@@ -28,6 +28,54 @@ Merch:
   picture:
     - file://rs9UM6M53WFyPe7r
   link: https://www.universalmusic.com/
+- 
+  product: Hoodie Morat Aqqa
+  price: 62,99
+  picture:
+    - file://CLesATQ7nUO2GZ0S
+  link: https://www.universalmusic.com/
+- 
+  product: Camiset SAFH
+  price: 34,99
+  picture:
+    - file://uvsEuHWcIpBatVP2
+  link: https://www.universalmusic.com/
+- 
+  product: Gorra Morat ADQA
+  price: 22,99
+  picture:
+    - file://rs9UM6M53WFyPe7r
+  link: https://www.universalmusic.com/
+- 
+  product: Antifaz Morat ISAZA
+  price: 16,99
+  picture:
+    - file://0RybTnfX9q2rZeCx
+  link: https://www.universalmusic.com/
+- 
+  product: Hoodie Morat Aqqa
+  price: 62,99
+  picture:
+    - file://CLesATQ7nUO2GZ0S
+  link: https://www.universalmusic.com/
+- 
+  product: Gorra Morat ADQA
+  price: 22,99
+  picture:
+    - file://rs9UM6M53WFyPe7r
+  link: https://www.universalmusic.com/
+- 
+  product: Camiset SAFH
+  price: 34,99
+  picture:
+    - file://uvsEuHWcIpBatVP2
+  link: https://www.universalmusic.com/
+- 
+  product: Antifaz Morat ISAZA
+  price: 16,99
+  picture:
+    - file://0RybTnfX9q2rZeCx
+  link: https://www.universalmusic.com/
 
 ----
 

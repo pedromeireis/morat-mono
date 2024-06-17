@@ -5,5 +5,5 @@
     <img id="<?= $id ?>" class="<?= $class ?>" src="<?= $media->url() ?>" loading="lazy" alt="<?= $media->alt() ?>">
     <?php endif ?>
 <?php elseif($media->type() == 'video'): ?>
-    <video id="<?= $id ?>" class="<?= $class ?>" src="<?= $media->url() ?>" preload="metadata" <?= $controls ?>></video>
+    <video id="<?= $id ?>" class="<?= $class ?>" src="<?= $media->url() ?>" preload="metadata" <?= $video_controls ?>></video>
 <?php endif ?>

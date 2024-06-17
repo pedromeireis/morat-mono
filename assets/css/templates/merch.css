@@ -3,7 +3,7 @@
     .merch_p-item {
         grid-column: span 3;
         height: auto;
-        margin: 0 4rem;
+        margin: 0 4rem 6rem;
     }
 
     .merch_p-item > *:first-child {

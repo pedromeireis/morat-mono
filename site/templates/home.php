@@ -1,7 +1,4 @@
 <?php snippet('header') ?>
-<?= css([
-    'assets/css/snippets/article-block.css',
-]) ?>
 <?= js([
     'assets/js/templates/home.js',
 ], ['defer' => true]) ?>
@@ -35,7 +32,7 @@
         <?php $i = 0;
               foreach(page('tour')->tour()->toStructure()->paginate(8) as $concert): ?>
             <?php if($i == 0): ?>
-            <div class="home_p-tour_b--item flex margin-b_small">
+            <div class="home_p-tour_b--item flex margin-b">
                 <p class="t-cond t-xlarge t-uppercase"><?= $concert->city() ?></p>
                 <div class="t-cond t-large t-uppercase margin-l">
                     <?= $concert->date()->toDate('j M') ?><br>
@@ -43,7 +40,7 @@
                 </div>
             </div>
             <?php else: ?>
-            <div class="home_p-tour_b--item grid-xxl">
+            <div class="home_p-tour_b--item grid-xxl margin-b_small">
                 <p class="t-cond t-body t-uppercase <?= $concert->sold_out() == 'true' ? 't-through' : null ?>"><?= $concert->city() ?></p>
                 <p class="t-cond t-body t-uppercase <?= $concert->sold_out() == 'true' ? 't-through' : null ?>"><?= $concert->date()->toDate('j M') ?></p>
                 <p class="t-cond t-body t-uppercase <?= $concert->sold_out() == 'true' ? 't-through' : null ?>"><?= $concert->date()->toDate('Y') ?></p>
@@ -58,7 +55,7 @@
         <div class="flex f-column">
             <p class="t-grot t-xsmall t-uppercase t-center margin-b_small">Escucha el último lanzamiento</p>
             <?php if($picture = $song->cover()->toFile()): ?>
-            <?php snippet('media-block', ['media' => $picture, 'sizes' => '50vw', 'id' => null, 'class' => 'flex ratio-1_1 margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
+            <?php snippet('media-block', ['media' => $picture, 'sizes' => '50vw', 'id' => null, 'class' => 'flex ratio-1_1 margin-b_med', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
             <?php endif ?>
             <p class="t-cond t-large t-uppercase t-center margin-b_med"><?= $song->title() ?></p>
             <div class="flex j-center margin-b">
@@ -86,11 +83,19 @@
         </ul>
      </div>
      <div id="home_p-menu--news-board" class="home_p-board p-fixed p-all f-column j-center a-center">
-        <?php foreach(page('news')->children()->listed()->paginate(1) as $article): ?>
-        <?php snippet('article-block', ['article' => $article, 'size' => 'small']) ?>
+        <?php foreach(page('news')->children()->listed()->paginate(3) as $article): ?>
+        <div class="home_p-news_b--article grid-m margin-b_med">
+            <?php if($picture = $article->picture()->toFile()): ?>
+            <?php snippet('media-block', ['media' => $picture, 'sizes' => '30vw', 'id' => null, 'class' => 'ratio-5_4', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
+            <?php endif ?>
+            <div class="flex f-column j-between">
+                <p class="t-cond t-medium t-uppercase"><?= $article->title() ?></p>
+                <p class="t-grot t-small t-uppercase">Leer más /</p>
+            </div>
+        </div>
         <?php endforeach ?>
      </div>
-     <div id="home_p-menu--fans-board" class="home_p-board p-fixed p-all f-column a-center">
+     <div id="home_p-menu--fans-board" class="home_p-board p-fixed p-all f-column j-center a-center">
         <ul class="grid-xl">
         <?php foreach(page('fans/gallery')->files()->sortBy('sort', 'asc')->paginate(12) as $picture): ?>
         <?php snippet('media-block', ['media' => $picture, 'sizes' => '25vw', 'id' => null, 'class' => 'ratio-1_1 flex margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
