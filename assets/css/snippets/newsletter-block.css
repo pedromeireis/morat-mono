@@ -38,14 +38,14 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
     margin: -.5vw 0 2rem;
 }
 #newsletter_b-form > a {
-    font-size: 24.5vw !important;
+    font-size: 15vw !important;
     width: 100%;
     border: 6px solid black;
     font-size: 4rem;
     margin-bottom: 2rem;
-    padding-bottom: 0;
+    padding-bottom: 1vw;
 }
-#newsletter_b-form>p:nth-child(4) {
+#newsletter_b-form>p:nth-child(5) {
     font-size: 1rem;
     text-align: center;
 }
@@ -57,8 +57,8 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
         margin-top: -.5rem;
     }
     #newsletter_b-form > a {
-        font-size: 16rem !important;
-        padding-top: 2rem;
+        font-size: 9rem !important;
+        padding-top: 2.1rem;
     }
 }
 @media (hover: hover) {

@@ -70,7 +70,7 @@
                 <a id="music_p-overlay--soundcloud"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/soundcloud.svg' ?>" alt="SoundCloud"></a>
                 <a id="music_p-overlay--tidal"  data-status="inactive" href="" target="_blank" class="f-margin"><img class="icon-height" src="<?= $kirby->url('assets') . '/media/icons/tidal.svg' ?>" alt="Tidal"></a>
             </div>
-            <p data-status="inactive" class="t-grot t-small t-uppercase t-center">Escúchalo en todas las plataformas</p>
+            <p data-status="inactive" class="t-grot t-xsmall t-uppercase t-center">Escúchalo en todas las plataformas</p>
         </nav>
     </div>
 

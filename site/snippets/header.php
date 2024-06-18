@@ -19,12 +19,12 @@
 </header>
 
 <section id="menu" class="p-fixed p-all padding stop hide-d" data-status="close">
-    <nav class="flex f-column j-center p-relative">
-        <a href="<?= page('tour')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('tour')->title() ?></a>
-        <a href="<?= page('music')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('music')->title() ?></a>
-        <a href="<?= page('merch')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('merch')->title() ?></a>
-        <a href="<?= page('news')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('news')->title() ?></a>
-        <a href="<?= page('fans/videos')->url() ?>" class="t-cond t-xlarge t-uppercase"><?= page('fans')->title() ?></a>
+    <nav class="flex f-column j-between p-relative">
+        <a href="<?= page('tour')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('tour')->title() ?></a>
+        <a href="<?= page('music')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('music')->title() ?></a>
+        <a href="<?= page('merch')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('merch')->title() ?></a>
+        <a href="<?= page('news')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('news')->title() ?></a>
+        <a href="<?= page('fans/videos')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('fans')->title() ?></a>
     </nav>
 
     <?php snippet('footer', ['role' => 'placeholder']) ?>

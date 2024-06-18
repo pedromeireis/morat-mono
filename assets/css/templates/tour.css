@@ -34,6 +34,6 @@
         background-color: white;
         padding: .5rem .5rem 0;
         color: black !important;
-        text-decoration: none !important;
+        text-decoration: none;
     }
 }

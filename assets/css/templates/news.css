@@ -1,6 +1,6 @@
 main>nav {
     position: sticky;
-    top: calc(var(--headerHeightM) + 14.75vh + 1rem);
+    top: calc(var(--headerHeightM) + 14.75vh);
     z-index: 40;
 }
 @media only screen and (min-width: 1024px) {

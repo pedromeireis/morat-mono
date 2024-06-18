@@ -78,9 +78,11 @@ Text Style
 .t-lowercase {text-transform: lowercase;}
 .t-left {text-align: left;}
 .t-center {text-align: center;}
-.t-right {text-align: right;}
+.t-right {text-align: right !important;}
 .t-underline {text-decoration: underline !important;}
 .t-through {
-    text-decoration-line: line-through;
-    text-decoration-thickness: 10px;
+    text-decoration: line-through !important;
+    -webkit-text-decoration: line-through !important;
+    text-decoration-thickness: 10px !important;
+    -webkit-text-decoration-thickness: 10px !important;
 }

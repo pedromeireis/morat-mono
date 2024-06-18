@@ -66,7 +66,7 @@
                 <img class="icon-height f-margin" src="<?= $kirby->url('assets') . '/media/icons/soundcloud.svg' ?>" alt="SoundCloud">
                 <img class="icon-height f-margin" src="<?= $kirby->url('assets') . '/media/icons/tidal.svg' ?>" alt="Tidal">
             </div>
-            <p class="t-grot t-small t-uppercase t-center">Escúchalo en todas las plataformas</p>
+            <p class="t-grot t-xsmall t-uppercase t-center">Escúchalo en todas las plataformas</p>
         </div>
         <?php endif ?>
      </div>

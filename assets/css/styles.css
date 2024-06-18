@@ -21,13 +21,15 @@ ELEMENTS
 */
 #page-title {
     position: sticky;
-    top: var(--headerHeightM);
+    top: calc(var(--headerHeightM) - .5rem);
+    margin-top: -.5rem;
     text-align: right;
     z-index: 20;
 }
 @media only screen and (min-width: 1024px) {
     #page-title {
         top: var(--headerHeightD);
+        margin-top: 0;
         margin-bottom: 8rem;
     }
 }
@@ -50,7 +52,7 @@ a.button {
 }
 
 img.icon {
-    width: 3rem;
+    width: 2.75rem;
     height: auto;
 }
 img.icon-small {
@@ -85,6 +87,7 @@ main.page {margin: var(--headerHeightM) 1rem 1rem;}
 .margin-b_large {margin-bottom: 6rem;}
 .margin-b_xlarge {margin-bottom: 10rem;}
 .margin-l {margin-left: 1rem;}
+.margin-r_small {margin-right: .5rem;}
 @media only screen and (min-width: 1024px) {
     .margin-b_large {margin-bottom: 12rem;}
     .margin-b_xlarge {margin-bottom: 16rem;}

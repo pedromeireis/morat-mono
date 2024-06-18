@@ -5,12 +5,14 @@
 
 <main class="page">
     <h2 id="page-title" class="t-cond t-xlarge t-uppercase padding-t_xsmall p-relative"><?= $parent->title() ?></h2>
-    <nav class="flex margin-t margin-b_large p-relative">
-        <?php foreach($siblings as $sibling): ?>
-        <a href="<?= $sibling->url() ?>" class="t-grot t-small t-uppercase <?= $sibling == $page ? 't-underline' : null ?>"><?= $sibling->title() ?></a>
-        <span class="t-grot t-small t-uppercase">&nbsp•&nbsp</span>
-        <?php endforeach ?>
-        <a href="<?= $forum ?>" target="_blank" class="t-grot t-small t-uppercase">Foro</a>
+    <nav class="margin-t margin-b_large">
+        <div class="flex">
+            <?php foreach($siblings as $sibling): ?>
+            <a href="<?= $sibling->url() ?>" class="t-grot t-small t-uppercase <?= $sibling == $page ? 't-underline' : null ?>"><?= $sibling->title() ?></a>
+            <span class="t-grot t-small t-uppercase">&nbsp•&nbsp</span>
+            <?php endforeach ?>
+            <a href="<?= $forum ?>" target="_blank" class="t-grot t-small t-uppercase">Foro</a>
+        </div>
     </nav>
 
     <section id="videos_p-gallery--container p-fixed p-all">

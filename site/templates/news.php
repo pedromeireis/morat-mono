@@ -5,8 +5,8 @@
 
 <main class="page">
     <h2 id="page-title" class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $page->title() ?></h2>
-    <nav class="flex f-wrap margin-t margin-b_large">
-        <span class="t-grot t-small t-uppercase">Filtrar:&nbsp</span>
+    <nav class="flex f-wrap margin-t margin-b_large a-center">
+        <span class="margin-r_small"><img src="<?= $kirby->url('assets') . '/media/icons/filter.svg' ?>" class="icon" alt="Filter News"></span>
         <?php $i = 1;
               foreach($categories as $category): ?>
 

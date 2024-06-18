@@ -42,7 +42,7 @@ a:focus-within,
 a:focus-visible,
 a:visited {
     display: block;
-    text-decoration: none !important;
+    text-decoration: none;
     cursor: pointer;
     color: white;
 }

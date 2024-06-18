@@ -31,12 +31,13 @@ HIGHLIGHT
 LIST
 */
 .music_p-year h3 {
-    position: sticky;
-    top: calc(var(--headerHeightM) + 14.75vh);
     width: fit-content;
 }
 @media only screen and (min-width: 1024px) {
-    .music_p-year h3 {top: var(--headerHeightD);}
+    .music_p-year h3 {
+        position: sticky;
+        top: var(--headerHeightD);
+    }
 }
 
 .music_p-item {cursor: pointer;}
@@ -93,7 +94,7 @@ OVERLAY
 /* Streaming */
 #music_p-overlay > nav {
     right: 1rem;
-    bottom: 1rem;
+    bottom: 2rem;
     left: 1rem;
 }
 #music_p-overlay > nav a[data-status='inactive'] {display: none;}
