@@ -14,12 +14,12 @@ tabs:
               tour:
                 label: 🎸 Tour
                 type: structure
-                sortBy: year asc
+                sortBy: date asc
                 columns:
                   date:
                     width: 1/8
                   city:
-                    width: 3/8
+                    width: 3/8\
                   venue:
                     width: 3/8
                   sold_out: true
