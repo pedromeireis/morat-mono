@@ -18,14 +18,26 @@ tabs:
               query: page.seo_picture.toFile
               ratio: 5/4
               cover: true
-      - width: 1/4
-        sections:
           forum:  
             type: fields
             fields:
               forum:
                 label: 💬 Forum
                 type: link
+      - width: 1/4
+        sections:
+          map:
+            type: files
+            files:
+              map_file:
+                label: Map
+                type: files
+                multiple: false
+                uploads: false
+                layout: cards
+                image:
+                  ratio: 268/139
+                  cover: true
         
   settings:
     label: Settings
@@ -47,8 +59,9 @@ tabs:
                 counter: false
                 icon: lock
       
-      # - width: 1/2
-      #   sections:
-      #     files:
-      #       label: 🖼️ Files
-      #       layout: list
+      - width: 1/2
+        sections:
+          files:
+            label: 🖼️ Files
+            layout: list
+            template: map

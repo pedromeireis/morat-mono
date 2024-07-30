@@ -13,7 +13,7 @@
                 <p class="hide-m_t t-cond t-body t-uppercase"><?= $concert->date()->toDate('j M') ?></p>
                 <p class="hide-m_t t-cond t-body t-uppercase"><?= $concert->date()->toDate('Y') ?></p>
                 <p class="t-cond t-body t-uppercase"><?= $concert->venue() ?></p>
-                <p class="t-cond t-body t-uppercase t-underline">Tickets</p>
+                <p class="t-cond t-body t-uppercase t-underline">Comprar</p>
             </a>
             <?php else: ?>
             <div class="tour_p-item margin-b_med grid-xxl">
@@ -22,7 +22,7 @@
                 <p class="hide-m_t t-cond t-body t-uppercase t-through"><?= $concert->date()->toDate('j M') ?></p>
                 <p class="hide-m_t t-cond t-body t-uppercase t-through"><?= $concert->date()->toDate('Y') ?></p>
                 <p class="t-cond t-body t-uppercase t-through"><?= $concert->venue() ?></p>
-                <p class="t-cond t-body t-uppercase t-through">Sold Out</p>
+                <p class="t-cond t-body t-uppercase t-through">Agotado</p>
             </div>
             <?php endif ?>
         </li>

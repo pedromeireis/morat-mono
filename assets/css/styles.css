@@ -13,7 +13,10 @@
 COLORS
 */
 .c-black {color: black !important;}
+.c-white {color: white !important;}
+.c-blue {color: var(--c-blue) !important;}
 .bg-blue {background: var(--c-blue);}
+.bg-black {background: black;}
 
 
 /* 

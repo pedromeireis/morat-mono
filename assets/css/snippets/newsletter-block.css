@@ -32,9 +32,9 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
     border-radius: 4rem;
     border: 2px solid var(--c-blue);
 } 
-#newsletter_b-form > p:nth-child(2) {font-size: 21.7vw;}
+#newsletter_b-form > p:nth-child(2) {font-size: 25.5vw;}
 #newsletter_b-form > p:nth-child(3) {
-    font-size: 9.6vw;
+    font-size: 8.3vw;
     margin: -.5vw 0 2rem;
 }
 #newsletter_b-form > a {
@@ -51,10 +51,10 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
 }
 
 @media only screen and (min-width: 1024px) {
-    #newsletter_b-form > p:nth-child(2) {font-size: 13.25rem;}
+    #newsletter_b-form > p:nth-child(2) {font-size: 7.9rem;}
     #newsletter_b-form > p:nth-child(3) {
-        font-size: 5.9rem;
-        margin-top: -.5rem;
+        font-size: 5.25rem;
+        margin-top: 0;
     }
     #newsletter_b-form > a {
         font-size: 9rem !important;

@@ -11,7 +11,7 @@
         <?php endif ?>
         <p class="t-grot t-small t-uppercase t-center"><?= $product->product() ?></p>
         <p class="t-grot t-small t-uppercase t-center"><?= $product->price() ?>€</p>
-        <a href="<?= $product->link() ?>" target="_blank" class="t-grot t-small t-uppercase t-center button margin-t">Buy Now</a>
+        <a href="<?= $product->link() ?>" target="_blank" class="t-grot t-small t-uppercase t-center button margin-t">Comprar</a>
     </li>
     <?php endforeach ?>
     </ul>
