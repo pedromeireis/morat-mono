@@ -1,5 +1,5 @@
 <?php if($role == 'footer'): ?>
-<footer class="<?= $page->intendedTemplate() == 'home' || $page->intendedTemplate() == 'videos' ? 'p-fixed' : 'p-relative' ?> padding flex">
+<footer class="<?= $page->intendedTemplate() == 'home' || $page->intendedTemplate() == 'videos' || $page->intendedTemplate() == 'fans' ? 'p-fixed' : 'p-relative' ?> padding flex">
 <?php else: ?>
 <div class="footer-placeholder padding flex">
 <?php endif ?>

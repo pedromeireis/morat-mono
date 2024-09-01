@@ -34,15 +34,53 @@ tabs:
           map:
             type: fields
             fields:
-              map_file:
-                label: 🗺️ Mapa
-                type: files
-                multiple: false
-                uploads: false
-                layout: cards
-                image:
-                  ratio: 268/139
-                  cover: true
+              locations:
+                label: 🗺️ La Tea
+                type: structure
+                columns:
+                  city: true
+                fields:
+                  city:
+                    label: 📍 City
+                    type: text
+                    counter: false
+                    placeholder: Santiago (CH)
+                    width: 3/4
+                  year:
+                    label: 🗓️ Year
+                    type: number
+                    min: 2000
+                    width: 1/4
+                  location:
+                    label: 🗺️ Location
+                    type: locator
+                    center:
+                      lat: 10
+                      lon: -15
+                    zoom:
+                      default: 1
+                    dblclick: marker
+                    display: false
+                  instagram:
+                    label: Instagram
+                    type: url
+                    width: 1/2
+                  threads:
+                    label: Threads
+                    type: url
+                    width: 1/2
+                  facebook:
+                    label: Facebook
+                    type: url
+                    width: 1/2
+                  twitter:
+                    label: X
+                    type: url
+                    width: 1/2
+                  tiktok:
+                    label: TikTok
+                    type: url
+                    width: 1/2
               
         
   settings:

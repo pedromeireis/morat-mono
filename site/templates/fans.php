@@ -1,11 +1,12 @@
 <?php snippet('header') ?>
 <?= js([
+    'assets/js/snippets/fans-map.js',
     'assets/js/templates/fans.js',
 ], ['defer' => true]) ?>
 
-<main class="page">
-    <a id="page-title" href="<?= $page->url() ?>"><h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $page->title() ?></h2></a>
-    <!-- <nav class="margin-t margin-b_large">
+<main class="">
+    <!-- <a id="page-title" href="<?= $page->url() ?>"><h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $page->title() ?></h2></a> -->
+    <!-- <nav class="margin-t margin-b_large padding-h">
         <div class="flex">
             <?php foreach($children as $child): ?>
             <a href="<?= $child->url() ?>" class="t-grot t-small t-uppercase"><?= $child->title() ?></a>
@@ -17,15 +18,9 @@
         </div>
     </nav> -->
 
-    <section id="fans_p-map" class="p-relative margin-b_med">
-        <img src="<?= $map->resize(600)->url() ?>" srcset="<?= $map->srcset() ?>" sizes="100vw" loading="lazy" alt="<?= $map->alt() ?>">
-        <?php foreach($markers as $club): ?>
-            <button id="marker-<?= $club->id() ?>" class="fans_p-marker p-absolute" style="<?= markerStyle($club) ?>" onclick="mapMarkerFind(this)" onmouseenter="mapMarkerHover(this)" onmouseleave="mapMarkerUnhover(this)"></button>
-            <div data-status="close" class="fans_p-marker--label bg-blue c-black t-grot t-xsmall p-absolute stop" style="<?= markerStyle($club) ?>"><?= $club->city() ?></div>
-        <?php endforeach ?>
-    </section>
+    <section id="map" class="p-fixed p-all"></section>
 
-    <section id="fans_p-list">
+    <!-- <section id="fans_p-list">
     <?php foreach($countries as $country): ?>
     <dl class="margin-b_med">
         <dt class="t-cond t-body t-uppercase margin-b"><?= $country ?></dt>
@@ -56,7 +51,7 @@
         <?php endforeach ?>
     </dl>
     <?php endforeach ?>
-    </section>
+    </section> -->
 </main>
 
 <?php snippet('footer', ['role' => 'footer']) ?>

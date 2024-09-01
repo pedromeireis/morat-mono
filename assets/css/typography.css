@@ -45,13 +45,16 @@ Typography
     line-height: 78%;
 }
 @media only screen and (min-width: 1024px) {
-    .t-cond.t-large {font-size: 8rem;}
+    .t-cond.t-large {
+        font-size: 8rem;
+        letter-spacing: -.0075em;
+    }
 }
 
 .t-cond.t-body {
     font-size: 2.75rem;
     line-height: 83%;
-    letter-spacing: 0.025em;
+    letter-spacing: -0.005em;
 }
 @media only screen and (min-width: 1024px) {
     .t-cond.t-body {font-size: 4rem;}

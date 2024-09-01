@@ -107,7 +107,7 @@ main.page {margin: var(--headerHeightM) 1rem 1rem;}
 /* 
 POSITIONS
 */
-.p-fixed {position: fixed;}
+.p-fixed {position: fixed !important;}
 .p-relative {position: relative;}
 .p-absolute {position: absolute;}
 
@@ -117,6 +117,8 @@ POSITIONS
 /* 
 DISPLAY
 */
+.d-block {display: block !important;}
+
 .flex {display: flex !important;}
 .f-wrap {flex-wrap: wrap;}
 .f-nowrap {flex-wrap: nowrap;}
