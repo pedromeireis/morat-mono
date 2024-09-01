@@ -23,14 +23,19 @@ tabs:
             fields:
               forum:
                 label: 💬 Forum
-                type: link
+                type: url
+                width: 1/2
+              fanclub:
+                label: 🎤 Fan Club
+                type: url
+                width: 1/2
       - width: 1/4
         sections:
           map:
-            type: files
-            files:
+            type: fields
+            fields:
               map_file:
-                label: Map
+                label: 🗺️ Mapa
                 type: files
                 multiple: false
                 uploads: false
@@ -38,6 +43,7 @@ tabs:
                 image:
                   ratio: 268/139
                   cover: true
+              
         
   settings:
     label: Settings

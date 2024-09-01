@@ -53,4 +53,4 @@
 
 </head>
 <body data-url="<?= $site->url() ?>" data-template="<?= $page->intendedTemplate() ?>">
-<!-- <?php snippet('newsletter-block') ?> -->
+<?php snippet('newsletter-block') ?>

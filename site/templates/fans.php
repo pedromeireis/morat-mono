@@ -5,15 +5,17 @@
 
 <main class="page">
     <a id="page-title" href="<?= $page->url() ?>"><h2 class="t-cond t-xlarge t-uppercase padding-t_xsmall"><?= $page->title() ?></h2></a>
-    <nav class="margin-t margin-b_large">
+    <!-- <nav class="margin-t margin-b_large">
         <div class="flex">
             <?php foreach($children as $child): ?>
             <a href="<?= $child->url() ?>" class="t-grot t-small t-uppercase"><?= $child->title() ?></a>
             <span class="t-grot t-small t-uppercase">&nbsp•&nbsp</span>
             <?php endforeach ?>
             <a href="<?= $forum ?>" target="_blank" class="t-grot t-small t-uppercase">Foro</a>
+            <span class="t-grot t-small t-uppercase">&nbsp•&nbsp</span>
+            <a href="<?= $fanclub ?>" target="_blank" class="t-grot t-small t-uppercase">La Tea Fan Club</a>
         </div>
-    </nav>
+    </nav> -->
 
     <section id="fans_p-map" class="p-relative margin-b_med">
         <img src="<?= $map->resize(600)->url() ?>" srcset="<?= $map->srcset() ?>" sizes="100vw" loading="lazy" alt="<?= $map->alt() ?>">

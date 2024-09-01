@@ -8,7 +8,7 @@ const newsletterForm = document.querySelector('#newsletter_b-form')
 if (sessionStorage.getItem('data-visit') != 'true') {
     sessionStorage.setItem('data-visit', 'false')
 
-    body.classList.add('stop')
+    // body.classList.add('stop')
     body.setAttribute('data-visit', 'false')
 
     gsap.from(newsletterBg, {
@@ -25,7 +25,7 @@ if (sessionStorage.getItem('data-visit') != 'true') {
 } else {
     sessionStorage.setItem('data-visit', 'true')
 
-    body.classList.remove('stop')
+    // body.classList.remove('stop')
     body.setAttribute('data-visit', 'true')
 }
 

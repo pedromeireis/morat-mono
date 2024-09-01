@@ -12,6 +12,8 @@
             <span class="t-grot t-small t-uppercase">&nbsp•&nbsp</span>
             <?php endforeach ?>
             <a href="<?= $forum ?>" target="_blank" class="t-grot t-small t-uppercase">Foro</a>
+            <span class="t-grot t-small t-uppercase">&nbsp•&nbsp</span>
+            <a href="<?= $fanclub ?>" target="_blank" class="t-grot t-small t-uppercase">La Tea Fan Club</a>
         </div>
     </nav>
 
