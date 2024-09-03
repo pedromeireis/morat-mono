@@ -15,9 +15,6 @@
         <div id="home_p-menu--music" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
             <a href="<?= page('music')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('music')->title() ?></a>
         </div>
-        <div id="home_p-menu--merch" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
-            <a href="<?= page('merch')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('merch')->title() ?></a>
-        </div>
         <div id="home_p-menu--news" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
             <a href="<?= page('news')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('news')->title() ?></a>
         </div>
@@ -69,18 +66,6 @@
             <p class="t-grot t-xsmall t-uppercase t-center">Escúchalo en todas las plataformas</p>
         </div>
         <?php endif ?>
-     </div>
-     <div id="home_p-menu--merch-board" class="home_p-board p-fixed p-all f-column j-center a-center">
-        <ul class="flex f-wrap j-evenly">
-        <?php foreach(page('merch')->merch()->toStructure()->paginate(6) as $product): ?>
-            <li class="home_p-merch_b--product flex f-column margin-b_med">
-                <?php if($picture = $product->picture()->toFile()): ?>
-                <?php snippet('media-block', ['media' => $picture, 'sizes' => '25vw', 'id' => null, 'class' => 'margin-b_small', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
-                <?php endif ?>
-                <p class="t-grot t-small t-uppercase t-center"><?= $product->product() ?><br><?= $product->price() ?>€</p>
-            </li>
-        <?php endforeach ?>
-        </ul>
      </div>
      <div id="home_p-menu--news-board" class="home_p-board p-fixed p-all f-column j-center a-center">
         <?php foreach(page('news')->children()->listed()->paginate(3) as $article): ?>

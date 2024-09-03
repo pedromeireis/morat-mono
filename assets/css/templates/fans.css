@@ -65,7 +65,8 @@ MAP
 .map_marker-container[data-status="open"] .map-marker--drop {
     visibility: visible;
     opacity: 1;
-    translate: calc(-50% + 10px) calc(-100% - 2.25rem) !important;
+    /* translate: calc(-50% + 10px) calc(-100% - 2.25rem) !important; */
+    translate: calc(-50% + 10px) -50% !important;
 }
 
 .map-marker--drop .--link {

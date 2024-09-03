@@ -199,7 +199,7 @@ function openClub(num) {
     for (const club of clubs) {
         if (club.num == num) {
             map.flyTo({
-                center: [club.lon, club.lat + 4], 
+                center: [club.lon, club.lat], 
                 zoom: 4,
                 duration: 1000
             })

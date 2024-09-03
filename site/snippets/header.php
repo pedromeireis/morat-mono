@@ -9,8 +9,6 @@
         <span class="t-grot t-small t-uppercase">&nbsp&nbsp•&nbsp&nbsp</span>
         <a href="<?= page('music')->url() ?>" class="t-grot t-small t-uppercase <?= $page == page('music') ? 't-underline' : null ?>"><?= page('music')->title() ?></a>
         <span class="t-grot t-small t-uppercase">&nbsp&nbsp•&nbsp&nbsp</span>
-        <a href="<?= page('merch')->url() ?>" class="t-grot t-small t-uppercase <?= $page == page('merch') ? 't-underline' : null ?>"><?= page('merch')->title() ?></a>
-        <span class="t-grot t-small t-uppercase">&nbsp&nbsp•&nbsp&nbsp</span>
         <a href="<?= page('news')->url() ?>" class="t-grot t-small t-uppercase <?= $page == page('news') || page('news')->children()->has($page) ? 't-underline' : null ?>"><?= page('news')->title() ?></a>
         <span class="t-grot t-small t-uppercase">&nbsp&nbsp•&nbsp&nbsp</span>
         <a href="<?= page('fans')->url() ?>" class="t-grot t-small t-uppercase <?= $page == page('fans') || page('fans')->children()->has($page) ? 't-underline' : null ?>"><?= page('fans')->title() ?></a>
@@ -22,7 +20,6 @@
     <nav class="flex f-column j-between p-relative">
         <a href="<?= page('tour')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('tour')->title() ?></a>
         <a href="<?= page('music')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('music')->title() ?></a>
-        <a href="<?= page('merch')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('merch')->title() ?></a>
         <a href="<?= page('news')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('news')->title() ?></a>
         <a href="<?= page('fans')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('fans')->title() ?></a>
     </nav>
