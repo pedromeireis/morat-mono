@@ -25,7 +25,11 @@ ARTICLE
 @media only screen and (min-width: 1024px) {
     #article_p-article > div.padding-t_xsmall {grid-column: 1/8; margin-bottom: 0;}
     #article_p-article > img,
-    #article_p-article > video {grid-column: 8/-1;}
+    #article_p-article > video {
+        grid-column: 8/-1;
+        position: sticky;
+        top: 3.25rem;
+    }
     #article_p-article > div.k-text {grid-column: 1/8; margin-top: 4rem;}
     
 }

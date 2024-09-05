@@ -26,17 +26,17 @@ Typography
 .t-cond::after {content: ""; display: table;}
 
 .t-cond.t-xlarge {
-    font-size: calc(calc(calc(var(--vh) * 100) - calc(var(--headerHeightM) - var(--footerHeightM))) / 5);
+    font-size: 36vw;
     line-height: 110%;
     letter-spacing: -0.01em;
     /* overflow: hidden; */
 }
-.t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -2.5);}
-.t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -5);}
+.t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -2);}
+.t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -4);}
 @media only screen and (min-width: 1024px) {
-    .t-cond.t-xlarge {font-size: calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 4) - 1rem);}
-    .t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -3.5);}
-    .t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -6.5);}
+    .t-cond.t-xlarge {font-size: calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 3) - 2.35rem);}
+    .t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -4.5);}
+    .t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -8.75);}
 }
 
 .t-cond.t-large,

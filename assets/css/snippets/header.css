@@ -23,7 +23,7 @@ body[data-template="home"] header {background: transparent;}
 #menu[data-status='close'] {transform: translateY(-100%);}
 #menu[data-status='open'] {transform: translateY(0);}
 
-#menu a {text-align: center;}
+#menu a {margin: .5rem 0;}
 #menu .marquee {margin-left: -2rem !important;}
 
 

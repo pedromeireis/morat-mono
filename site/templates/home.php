@@ -8,18 +8,18 @@
     <?php snippet('media-block', ['media' => $picture, 'sizes' => '100vw', 'id' => 'home_p-hero', 'class' => 'p-fixed p-all flex', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
     <?php endif ?>
 
-    <section id="home_p-menu" class="flex f-column j-center p-relative" onmouseenter="homeMenuHover()" onmouseleave="homeMenuUnover()">
+    <section id="home_p-menu" class="flex f-column j-end p-relative" onmouseenter="homeMenuHover()" onmouseleave="homeMenuUnover()">
         <div id="home_p-menu--tour"  class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
-            <a href="<?= page('tour')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('tour')->title() ?></a>
-        </div>
-        <div id="home_p-menu--music" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
-            <a href="<?= page('music')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('music')->title() ?></a>
-        </div>
-        <div id="home_p-menu--news" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
-            <a href="<?= page('news')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('news')->title() ?></a>
+            <a href="<?= page('tour')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase"><?= page('tour')->title() ?></a>
         </div>
         <div id="home_p-menu--fans" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
-            <a href="<?= page('fans')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase margin-b_xsmall"><?= page('fans')->title() ?></a>
+            <a href="<?= page('fans')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase"><?= page('fans')->title() ?></a>
+        </div>
+        <div id="home_p-menu--music" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
+            <a href="<?= page('music')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase"><?= page('music')->title() ?></a>
+        </div>
+        <div id="home_p-menu--news" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
+            <a href="<?= page('news')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase"><?= page('news')->title() ?></a>
         </div>
     </section>
 

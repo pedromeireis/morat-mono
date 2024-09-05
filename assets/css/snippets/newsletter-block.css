@@ -51,7 +51,7 @@ body[data-visit='false'] #newsletter_b-form {visibility: visible;}
 }
 
 @media only screen and (min-width: 1024px) {
-    #newsletter_b-form > p:nth-child(2) {font-size: 7.9rem;}
+    #newsletter_b-form > p:nth-child(2) {font-size: 8.3333rem;}
     #newsletter_b-form > p:nth-child(3) {
         font-size: 5.25rem;
         margin-top: 0;
