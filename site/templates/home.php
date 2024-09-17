@@ -29,8 +29,8 @@
         <?php $i = 0;
               foreach(page('tour')->tour()->toStructure()->paginate(8) as $concert): ?>
             <?php if($i == 0): ?>
-            <div class="home_p-tour_b--item flex margin-b">
-                <p class="t-cond t-xlarge t-uppercase"><?= $concert->city() ?></p>
+            <div id="home-tour-board--title" class="home_p-tour_b--item flex margin-b">
+                <p class="t-cond t-xxlarge t-uppercase"><?= $concert->city() ?></p>
                 <div class="t-cond t-large t-uppercase margin-l">
                     <?= $concert->date()->toDate('j M') ?><br>
                     <?= $concert->date()->toDate('Y') ?>

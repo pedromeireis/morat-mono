@@ -65,21 +65,51 @@ tabs:
                     label: Instagram
                     type: url
                     width: 1/2
+                  instagram_user:
+                    label: Instagram User
+                    type: text
+                    counter: false
+                    before: '@'
+                    width: 1/2
                   threads:
                     label: Threads
                     type: url
+                    width: 1/2
+                  threads_user:
+                    label: Threads User
+                    type: text
+                    counter: false
+                    before: '@'
                     width: 1/2
                   facebook:
                     label: Facebook
                     type: url
                     width: 1/2
+                  facebook_user:
+                    label: Facebook User
+                    type: text
+                    counter: false
+                    before: '@'
+                    width: 1/2
                   twitter:
                     label: X
                     type: url
                     width: 1/2
+                  twitter_user:
+                    label: X User
+                    type: text
+                    counter: false
+                    before: '@'
+                    width: 1/2
                   tiktok:
                     label: TikTok
                     type: url
+                    width: 1/2
+                  tiktok_user:
+                    label: TikTok User
+                    type: text
+                    counter: false
+                    before: '@'
                     width: 1/2
               
         

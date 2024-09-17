@@ -65,7 +65,7 @@
     }
 
     /* TOUR */
-    #home_p-menu--tour-board {width: 100%; padding-right: 2rem;}
+    #home_p-menu--tour-board {width: 100%;}
     .home_p-tour_b--item.grid-xxl p:nth-child(1) {grid-column: 1/4;}
     .home_p-tour_b--item.grid-xxl p:nth-child(2) {grid-column: 4/6;}
     .home_p-tour_b--item.grid-xxl p:nth-child(3) {grid-column: 6/7;}

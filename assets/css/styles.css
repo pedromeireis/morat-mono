@@ -23,15 +23,15 @@ COLORS
 ELEMENTS
 */
 #page-title {
-    position: sticky;
-    top: calc(var(--headerHeightM) - .5rem);
+    /* position: sticky;
+    top: calc(var(--headerHeightM) - .5rem); */
     margin-top: -.5rem;
     text-align: right;
     z-index: 20;
 }
 @media only screen and (min-width: 1024px) {
     #page-title {
-        top: var(--headerHeightD);
+        /* top: var(--headerHeightD); */
         margin-top: 0;
         margin-bottom: 8rem;
     }

@@ -79,7 +79,7 @@ fetch(url + '/fans.json')
                     markerDropInstagram.className = '--link c-black t-cond t-large t-uppercase t-center margin-b_small'
 
                     const markerDropInstagramUser = document.createElement('span')
-                    markerDropInstagramUser.innerHTML = '@' + club.instagram.split('/').pop()
+                    markerDropInstagramUser.innerHTML = '@' + club.instagram_user
                     markerDropInstagramUser.className = 'd-block c-black t-grot t-xsmall t-uppercase t-center'
 
                     markerDropLinks.appendChild(markerDropInstagram);
@@ -94,7 +94,7 @@ fetch(url + '/fans.json')
                     markerDropThreads.className = '--link c-black t-cond t-large t-uppercase t-center margin-b_small'
 
                     const markerDropThreadsUser = document.createElement('span')
-                    markerDropThreadsUser.innerHTML = '@' + club.threads.split('/').pop()
+                    markerDropThreadsUser.innerHTML = '@' + club.threads_user
                     markerDropThreadsUser.className = 'd-block c-black t-grot t-xsmall t-uppercase t-center'
 
                     markerDropLinks.appendChild(markerDropThreads);
@@ -109,7 +109,7 @@ fetch(url + '/fans.json')
                     markerDropFacebook.className = '--link c-black t-cond t-large t-uppercase t-center margin-b_small'
 
                     const markerDropFacebookUser = document.createElement('span')
-                    markerDropFacebookUser.innerHTML = '@' + club.facebook.split('/').pop()
+                    markerDropFacebookUser.innerHTML = '@' + club.facebook_user
                     markerDropFacebookUser.className = 'd-block c-black t-grot t-xsmall t-uppercase t-center'
 
                     markerDropLinks.appendChild(markerDropFacebook);
@@ -124,7 +124,7 @@ fetch(url + '/fans.json')
                     markerDropTwitter.className = '--link c-black t-cond t-large t-uppercase t-center margin-b_small'
 
                     const markerDropTwitterUser = document.createElement('span')
-                    markerDropTwitterUser.innerHTML = '@' + club.twitter.split('/').pop()
+                    markerDropTwitterUser.innerHTML = '@' + club.twitter_user
                     markerDropTwitterUser.className = 'd-block c-black t-grot t-xsmall t-uppercase t-center'
 
                     markerDropLinks.appendChild(markerDropTwitter);
@@ -139,7 +139,7 @@ fetch(url + '/fans.json')
                     markerDropTikTok.className = '--link c-black t-cond t-large t-uppercase t-center margin-b_small'
 
                     const markerDropTikTokUser = document.createElement('span')
-                    markerDropTikTokUser.innerHTML = club.tiktok.split('/').pop()
+                    markerDropTikTokUser.innerHTML = '@' + club.tiktok_user
                     markerDropTikTokUser.className = 'd-block c-black t-grot t-xsmall t-uppercase t-center'
 
                     markerDropLinks.appendChild(markerDropTikTok);
@@ -154,7 +154,7 @@ fetch(url + '/fans.json')
             markerDropClose.className = '--close p-absolute padding-small'
             markerDropClose.setAttribute('onclick', 'closeClubs()')
 
-            // const imgPath = url.split('/').pop()
+            // const imgPath = url_user
             const imgPath = url
             markerDropCloseImg.className = 'icon-small'
             markerDropCloseImg.setAttribute('src', imgPath + '/assets/media/icons/newsletter-cross.svg')

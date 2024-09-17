@@ -22,26 +22,36 @@ Locations:
     countryCode: ec
     osm: 108089
   instagram: https://www.instagram.com/morat_ecuador
+  instagram_user: morat_ecuador
   threads: https://www.threads.net/morat_ecuador
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://x.com/morat_ecuador
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@morat_ecuador
+  tiktok_user: ""
 - 
   city: Machala (EC)
   year: 2019
   location:
     lat: -3.31489375
-    lon: '-79.951280445523'
+    lon: "-79.951280445523"
     city: Machala
     region: El Oro
     country: Equador
     countryCode: ec
     osm: 107889
   instagram: https://www.instagram.com/enamoratas4_
+  instagram_user: ""
   threads: https://www.threads.net/enamoratas4_
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://x.com/enamoratas4_
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@enamoratas4_
+  tiktok_user: ""
 - 
   city: Quito (EC)
   year: 2021
@@ -55,26 +65,36 @@ Locations:
     postcode: "170130"
     osm: 58950371
   instagram: ""
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@maiconmdemorat
+  tiktok_user: ""
 - 
   city: Guayaquil (EC)
   year: 2020
   location:
     lat: -2.2895167
-    lon: '-80.09838874379'
+    lon: "-80.09838874379"
     city: Guayaquil
     region: Guayas
     country: Equador
     countryCode: ec
     osm: 3652281
   instagram: ""
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://x.com/exilemorat
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Riobamba (EC)
   year: 2022
@@ -87,10 +107,15 @@ Locations:
     countryCode: ec
     osm: 3728588
   instagram: https://www.instagram.com/enamorato_rbb
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@.enamoratoec
+  tiktok_user: ""
 - 
   city: Quito, Guayaquil (EC)
   year: 2021
@@ -104,10 +129,15 @@ Locations:
     postcode: "170130"
     osm: 58950371
   instagram: https://www.instagram.com/morat.manifest
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Chile
   year: 2017
@@ -118,10 +148,15 @@ Locations:
     countryCode: cl
     osm: 167454
   instagram: https://www.instagram.com/moratchile
+  instagram_user: ""
   threads: https://www.threads.net/moratchile
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Santiago (CH)
   year: 2020
@@ -134,10 +169,15 @@ Locations:
     countryCode: cl
     osm: 164609
   instagram: https://www.instagram.com/moratfruna
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratfruna
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratfruna
+  tiktok_user: ""
 - 
   city: Concepción (CH)
   year: 2018
@@ -150,10 +190,15 @@ Locations:
     countryCode: cl
     osm: 1620105
   instagram: https://www.instagram.com/moratconce
+  instagram_user: ""
   threads: https://www.threads.net/moratconce
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratconce
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratconce
+  tiktok_user: ""
 - 
   city: Viña del Mar (CH)
   year: 2019
@@ -166,10 +211,15 @@ Locations:
     countryCode: cl
     osm: 110804
   instagram: https://www.instagram.com/moratvina
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratvina
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratvina
+  tiktok_user: ""
 - 
   city: Colombia
   year: 2018
@@ -180,11 +230,16 @@ Locations:
     countryCode: co
     osm: 120027
   instagram: https://www.instagram.com/moratcolobiafc
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: >
     https://www.facebook.com/p/moratcolombiafc
+  facebook_user: ""
   twitter: https://www.x.com/moratcolobiafc
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratcolombiafc
+  tiktok_user: ""
 - 
   city: Bogotá (CO)
   year: 2023
@@ -197,16 +252,21 @@ Locations:
     postcode: "11001"
     osm: 1387968
   instagram: https://www.instagram.com/morat.nation
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratnation
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratnation
+  tiktok_user: ""
 - 
   city: Medellín (CO)
   year: 2023
   location:
     lat: 6.2697018
-    lon: '-75.602525744759'
+    lon: "-75.602525744759"
     city: Medellín
     region: Antioquia
     country: Colômbia
@@ -214,10 +274,15 @@ Locations:
     postcode: "0500"
     osm: 1343264
   instagram: https://www.instagram.com/morat.nation
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratnation
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratnation
+  tiktok_user: ""
 - 
   city: Monterrey (MX)
   year: 2023
@@ -230,10 +295,15 @@ Locations:
     countryCode: mx
     osm: 5606060
   instagram: https://www.instagram.com/morat.nation
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratnation
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratnation
+  tiktok_user: ""
 - 
   city: Puebla (MX)
   year: 2023
@@ -246,10 +316,15 @@ Locations:
     countryCode: mx
     osm: 1376491
   instagram: https://www.instagram.com/morat.nation
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratnation
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratnation
+  tiktok_user: ""
 - 
   city: CDMX (MX)
   year: 2023
@@ -262,10 +337,15 @@ Locations:
     countryCode: mx
     osm: 1376330
   instagram: https://www.instagram.com/morat.nation
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratnation
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratnation
+  tiktok_user: ""
 - 
   city: Paraguay
   year: 2016
@@ -276,10 +356,15 @@ Locations:
     countryCode: py
     osm: 287077
   instagram: https://www.instagram.com/morat_paraguay
+  instagram_user: ""
   threads: https://www.threads.net/morat_paraguay
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/morat_paraguay
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratparaguay
+  tiktok_user: ""
 - 
   city: Paraguay
   year: 2017
@@ -290,10 +375,15 @@ Locations:
     countryCode: py
     osm: 287077
   instagram: ""
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Asunción (PA)
   year: 2020
@@ -306,10 +396,15 @@ Locations:
     countryCode: pe
     osm: 1953173
   instagram: https://www.instagram.com/morat_asuncion
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Uruguay
   year: 2018
@@ -320,10 +415,15 @@ Locations:
     countryCode: uy
     osm: 287072
   instagram: https://www.instagram.com/moratfcuruguay
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratfcuruguay
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratfcuruguay
+  tiktok_user: ""
 - 
   city: Cuba
   year: 2022
@@ -334,32 +434,42 @@ Locations:
     countryCode: cu
     osm: 307833
   instagram: https://www.instagram.com/morat.cu
+  instagram_user: ""
   threads: https://www.threads.net/morat.cu
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratcu
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Bergamo (IT)
   year: 2023
   location:
-    lat: '45.7566557'
-    lon: '9.7542192008622'
+    lat: "45.7566557"
+    lon: "9.7542192008622"
     city: Bérgamo
     region: Lombardy
     country: Itália
     countryCode: it
     osm: 44996
   instagram: https://www.instagram.com/morat.nation
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratnation
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratnation
+  tiktok_user: ""
 - 
   city: Bergamo (IT)
   year: 2019
   location:
-    lat: '45.7566557'
-    lon: '9.7542192008622'
+    lat: "45.7566557"
+    lon: "9.7542192008622"
     city: Bérgamo
     region: Lombardy
     country: Itália
@@ -367,10 +477,15 @@ Locations:
     osm: 44996
   instagram: >
     https://www.instagram.com/enamorata.italia
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/enamorata.italia
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@enamorataitalia
+  tiktok_user: ""
 - 
   city: Milán (IT)
   year: 2020
@@ -384,10 +499,15 @@ Locations:
     osm: 44915
   instagram: >
     https://www.instagram.com/moratfan_italia
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Torino (IT)
   year: 2015
@@ -400,10 +520,15 @@ Locations:
     countryCode: it
     osm: 43992
   instagram: https://www.instagram.com/morat__italia
+  instagram_user: ""
   threads: https://www.threads.net/morat__italia
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.instagram.com/italiamorat
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratitalia
+  tiktok_user: ""
 - 
   city: Guatemala
   year: 2021
@@ -414,10 +539,15 @@ Locations:
     countryCode: gt
     osm: 1521463
   instagram: https://www.instagram.com/moratxguate
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: https://www.facebook.com/p/moratxguate
+  facebook_user: ""
   twitter: https://www.x.com/moratxguatemala
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratguatemala
+  tiktok_user: ""
 - 
   city: España
   year: 2021
@@ -428,10 +558,15 @@ Locations:
     countryCode: es
     osm: 1311341
   instagram: https://www.instagram.com/fcmoratesp
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/fcmoratesp
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratspain
+  tiktok_user: ""
 - 
   city: España
   year: 2022
@@ -442,10 +577,15 @@ Locations:
     countryCode: es
     osm: 1311341
   instagram: https://www.instagram.com/moratgirona
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratgirona
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratgirona
+  tiktok_user: ""
 - 
   city: Barcelona (ES)
   year: 2019
@@ -459,10 +599,15 @@ Locations:
     osm: 347950
   instagram: >
     https://www.instagram.com/morat_barcelona
+  instagram_user: ""
   threads: https://www.threads.net/morat_barcelona
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/morat_barcelona
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@morat_barcelona
+  tiktok_user: ""
 - 
   city: Madrid (ES)
   year: 2021
@@ -475,16 +620,21 @@ Locations:
     countryCode: es
     osm: 5326784
   instagram: https://www.instagram.com/morat.es
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@morat.es
+  tiktok_user: ""
 - 
   city: Todo el Mundo
   year: 2018
   location:
-    lat: '29.205173358444'
-    lon: '-37.96875'
+    lat: "29.205173358444"
+    lon: "-37.96875"
     number: null
     city: null
     region: null
@@ -495,10 +645,15 @@ Locations:
     osm: null
   instagram: >
     https://www.instagram.com/enamoratos.unidos
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Perú
   year: 2016
@@ -509,10 +664,15 @@ Locations:
     countryCode: pe
     osm: 288247
   instagram: https://www.instagram.com/moratperu
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratperu
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratperufco
+  tiktok_user: ""
 - 
   city: Venezuela
   year: 2017
@@ -523,10 +683,15 @@ Locations:
     countryCode: ve
     osm: 272644
   instagram: https://www.instagram.com/moratvenezuela
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratvenezuela
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratvenezuela
+  tiktok_user: ""
 - 
   city: Barquisimeto (VN)
   year: 2022
@@ -541,10 +706,15 @@ Locations:
     osm: 1622415710
   instagram: >
     https://www.instagram.com/moratbarquisimeto
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Argentina
   year: 2015
@@ -556,10 +726,15 @@ Locations:
     osm: 286393
   instagram: >
     https://www.instagram.com/morat_argentina
+  instagram_user: ""
   threads: https://www.threads.net/morat_argentina
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratargentina
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratargentina
+  tiktok_user: ""
 - 
   city: Tucuman (AR)
   year: 2020
@@ -573,10 +748,15 @@ Locations:
     postcode: T4000
     osm: 3486117
   instagram: https://www.instagram.com/morat_tucuman
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@morat_tucuman
+  tiktok_user: ""
 - 
   city: Chile
   year: 2021
@@ -588,10 +768,15 @@ Locations:
     osm: 167454
   instagram: >
     https://www.instagram.com/morat_miltormentasfc
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/miltormentas_fc
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
   h: 0
 - 
   city: Mar del Plata (AR)
@@ -606,10 +791,15 @@ Locations:
     osm: 3402727
   instagram: >
     https://www.instagram.com/morat_mardelplata
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Santa Fe (AR)
   year: ""
@@ -623,10 +813,15 @@ Locations:
     osm: 153543
   instagram: >
     https://www.instagram.com/morat_rosario.arg
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@iri_moratlover23
+  tiktok_user: ""
 - 
   city: Nantes (FR)
   year: 2018
@@ -639,10 +834,15 @@ Locations:
     countryCode: fr
     osm: 59874
   instagram: https://www.instagram.com/moratfrancia
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Montpellier (FR)
   year: 2018
@@ -655,10 +855,15 @@ Locations:
     countryCode: fr
     osm: 28722
   instagram: https://www.instagram.com/moratfrancia
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Curitiba (BR)
   year: 2017
@@ -671,10 +876,15 @@ Locations:
     countryCode: br
     osm: 297514
   instagram: https://www.instagram.com/morat_brasil
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/morat_brasil
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratbrasilfc
+  tiktok_user: ""
 - 
   city: Lapa (BR)
   year: 2017
@@ -688,10 +898,15 @@ Locations:
     postcode: 47600-000
     osm: 362475
   instagram: https://www.instagram.com/moratalaire
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/gabialaire
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratalaire
+  tiktok_user: ""
 - 
   city: México
   year: 2016
@@ -702,10 +917,15 @@ Locations:
     countryCode: mx
     osm: 114686
   instagram: https://www.instagram.com/moratmexico
+  instagram_user: ""
   threads: https://www.threads.net/moratmexico
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratmexico
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratmexico
+  tiktok_user: ""
 - 
   city: Costa Rica
   year: 2017
@@ -716,10 +936,15 @@ Locations:
     countryCode: cr
     osm: 287667
   instagram: https://www.instagram.com/moratcostarica
+  instagram_user: ""
   threads: https://www.threads.net/moratcostarica
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratcostarica
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratcostarica
+  tiktok_user: ""
 - 
   city: Guatemala
   year: 2020
@@ -731,10 +956,15 @@ Locations:
     osm: 1521463
   instagram: >
     https://www.instagram.com/morat.guatemala
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/morat_guatemala
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@morat.guatemala
+  tiktok_user: ""
 - 
   city: El Salvador
   year: 2017
@@ -746,10 +976,15 @@ Locations:
     osm: 1520612
   instagram: >
     https://www.instagram.com/moratelsalvadoroficial
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratelsalvador
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratelsalvador
+  tiktok_user: ""
 - 
   city: Nicaragua
   year: 2019
@@ -761,10 +996,15 @@ Locations:
     osm: 287666
   instagram: >
     https://www.instagram.com/morat_nicaragua
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@morat.nicaragua
+  tiktok_user: ""
 - 
   city: Panamá
   year: 2019
@@ -776,10 +1016,15 @@ Locations:
     osm: 287668
   instagram: >
     https://www.instagram.com/morat_banda_panama_
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratpanama
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@morat_panama_
+  tiktok_user: ""
 - 
   city: Honduras
   year: 2019
@@ -791,10 +1036,15 @@ Locations:
     osm: 287670
   instagram: >
     https://www.instagram.com/morat_hondurasfc
+  instagram_user: ""
   threads: https://www.threads.net/morat_hondurasfc
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/morat_honduras
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Centroamerica
   year: 2021
@@ -808,10 +1058,15 @@ Locations:
     osm: 703469566
   instagram: >
     https://www.instagram.com/moratcentroamerica
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/morat_ca
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
   h: 0
 - 
   city: Perú
@@ -824,10 +1079,15 @@ Locations:
     osm: 288247
   instagram: >
     https://www.instagram.com/elclubdemorat.pe
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@elclubdemorat.pe
+  tiktok_user: ""
 - 
   city: República Dominicana
   year: 2017
@@ -838,10 +1098,15 @@ Locations:
     countryCode: do
     osm: 307828
   instagram: https://www.instagram.com/morat.rd
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@morat.rd
+  tiktok_user: ""
 - 
   city: República Dominicana
   year: 2020
@@ -853,10 +1118,15 @@ Locations:
     osm: 307828
   instagram: >
     https://www.instagram.com/fansas_de_morat
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Santiago (CH)
   year: 2022
@@ -869,10 +1139,15 @@ Locations:
     countryCode: cl
     osm: 164609
   instagram: https://www.instagram.com/moratxchile
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratxchile
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Concepción (CH)
   year: 2022
@@ -885,16 +1160,21 @@ Locations:
     countryCode: cl
     osm: 1620105
   instagram: https://www.instagram.com/moratxchile
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratxchile
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Todo el Mundo
   year: 2016
   location:
-    lat: '23.536665952816'
-    lon: '-50.625'
+    lat: "23.536665952816"
+    lon: "-50.625"
     number: null
     city: null
     region: null
@@ -904,10 +1184,15 @@ Locations:
     address: null
     osm: null
   instagram: https://www.instagram.com/moratnews
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: https://www.x.com/moratnews
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratnews
+  tiktok_user: ""
 - 
   city: Bolivia
   year: 2017
@@ -918,10 +1203,15 @@ Locations:
     countryCode: bo
     osm: 252645
   instagram: https://www.instagram.com/moratbolivia
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: Bolivia
   year: 2020
@@ -932,10 +1222,15 @@ Locations:
     countryCode: bo
     osm: 252645
   instagram: https://www.instagram.com/morat.bolivia
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 - 
   city: California (USA)
   year: 2022
@@ -948,15 +1243,20 @@ Locations:
     countryCode: us
     osm: 165475
   instagram: https://www.instagram.com/moratdib.usa_
+  instagram_user: ""
   threads: https://www.threads.net/moratdib.usa_
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: https://www.tiktok.com/@moratdib.usa
+  tiktok_user: ""
 - 
   city: USA
   year: 2024
   location:
-    lat: '40.69778626492'
+    lat: "40.69778626492"
     lon: -99.140625
     number: null
     city: null
@@ -967,10 +1267,15 @@ Locations:
     address: null
     osm: null
   instagram: https://www.instagram.com/morateuuglobal
+  instagram_user: ""
   threads: ""
+  threads_user: ""
   facebook: ""
+  facebook_user: ""
   twitter: ""
+  twitter_user: ""
   tiktok: ""
+  tiktok_user: ""
 
 ----
 
