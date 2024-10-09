@@ -17,6 +17,7 @@ tabs:
               - 'merch'
               - 'news'
               - 'fans'
+              - 'galeria_inesperada'
             create: false
             image:
               query: page.icon

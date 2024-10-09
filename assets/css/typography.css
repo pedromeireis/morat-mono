@@ -26,8 +26,8 @@ Typography
 .t-cond::after {content: ""; display: table;}
 
 .t-cond.t-xlarge {
-    font-size: 36vw;
-    line-height: 110%;
+    font-size: 27vw;
+    line-height: 74%;
     letter-spacing: -0.01em;
     /* overflow: hidden; */
 }
@@ -38,14 +38,14 @@ Typography
     height: fit-content;
     /* overflow: hidden; */
 }
-.t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -2);}
-.t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -4);}
+.t-cond.t-xlarge::before {margin-bottom: 2vw;}
+.t-cond.t-xlarge::after {margin-top: -2vw;}
 .t-cond.t-xxlarge::before {margin-bottom: calc(var(--vh) * .75);}
 .t-cond.t-xxlarge::after {margin-top: calc(var(--vh) * -1.25);}
 @media only screen and (min-width: 1024px) {
-    .t-cond.t-xlarge {font-size: calc(calc(calc(100vh - calc(1rem - var(--footerHeightD))) / 3) - 2.35rem);}
-    .t-cond.t-xlarge::before {margin-bottom: calc(var(--vh) * -4.5);}
-    .t-cond.t-xlarge::after {margin-top: calc(var(--vh) * -8.75);}
+    .t-cond.t-xlarge {font-size: 13.25vw;}
+    .t-cond.t-xlarge::before {margin-bottom: .75vw;}
+    .t-cond.t-xlarge::after {margin-top: -1.2vw;}
 }
 
 .t-cond.t-large,

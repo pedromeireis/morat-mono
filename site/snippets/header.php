@@ -12,6 +12,8 @@
         <a href="<?= page('music')->url() ?>" class="t-grot t-small t-uppercase <?= $page == page('music') ? 't-underline' : null ?>"><?= page('music')->title() ?></a>
         <span class="t-grot t-small t-uppercase">&nbsp&nbsp•&nbsp&nbsp</span>
         <a href="<?= page('news')->url() ?>" class="t-grot t-small t-uppercase <?= $page == page('news') || page('news')->children()->has($page) ? 't-underline' : null ?>"><?= page('news')->title() ?></a>
+        <span class="t-grot t-small t-uppercase">&nbsp&nbsp•&nbsp&nbsp</span>
+        <a href="<?= page('galeria-inesperada')->url() ?>" class="t-grot t-small t-uppercase <?= $page == page('galeria-inesperada') ? 't-underline' : null ?>"><?= page('galeria-inesperada')->title() ?></a>
     </nav>
     <?php endif ?>
 </header>
@@ -22,6 +24,7 @@
         <a href="<?= page('fans')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('fans')->title() ?></a>
         <a href="<?= page('music')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('music')->title() ?></a>
         <a href="<?= page('news')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('news')->title() ?></a>
+        <a href="<?= page('galeria-inesperada')->url() ?>" class="t-cond t-xlarge t-uppercase t-right"><?= page('galeria-inesperada')->title() ?></a>
     </nav>
 
     <?php snippet('footer', ['role' => 'placeholder']) ?>

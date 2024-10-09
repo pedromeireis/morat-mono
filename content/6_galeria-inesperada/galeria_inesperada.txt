@@ -1,0 +1,132 @@
+Title: Galeria Inesperada
+
+----
+
+Galeria-inesperada:
+
+- 
+  date: 2024-10-05
+  city: Santiago de Chile
+  country: Chile
+  venue: Estadio Bicentenario
+  status: A La Venta
+  link: >
+    https://www.ticketmaster.cl/event/morat-experiencia-vip
+- 
+  date: 2024-10-09
+  city: Buenos Aires
+  country: Argentina
+  venue: Estadio Velez
+  status: Sold Out
+  link: 'https://entradauno.com/landing/14097-experiencia-vip---morat?idEspectaculoCartel=14097&cHashValidacion=69ed7837716d47318549f4b4a09c764035be7f20'
+- 
+  date: 2024-10-14
+  city: Lima
+  country: Perú
+  venue: Estadio Nacional
+  status: En Espera
+  link: ""
+- 
+  date: 2024-10-18
+  city: San Jose
+  country: Costa Rica
+  venue: Estadio Nacional
+  status: En Espera
+  link: ""
+- 
+  date: 2024-10-23
+  city: Tegucigalpa
+  country: Honduras
+  venue: Estadio Chochi Sosa
+  status: En Espera
+  link: ""
+- 
+  date: 2024-10-26
+  city: San Salvador
+  country: El Salvador
+  venue: Estadio Cuscatlan
+  status: En Espera
+  link: ""
+- 
+  date: 2024-11-02
+  city: Cdad de Guatemala
+  country: Guatemala
+  venue: Estadio Cementos Progreso
+  status: En Espera
+  link: ""
+- 
+  date: 2024-11-09
+  city: Managua
+  country: Nicaragua
+  venue: Estadio Soberania
+  status: En Espera
+  link: ""
+- 
+  date: 2024-11-27
+  city: Monterrey
+  country: Mexico
+  venue: >
+    Estadio Banorte O Estadio Sultanes
+    Monterrey
+  status: En Espera
+  link: ""
+- 
+  date: 2024-11-28
+  city: Monterrey
+  country: Mexico
+  venue: >
+    Estadio Banorte O Estadio Sultanes
+    Monterrey
+  status: En Espera
+  link: ""
+- 
+  date: 2024-12-02
+  city: Guadalajara
+  country: Mexico
+  venue: 3 de Marzo O Akron
+  status: En Espera
+  link: ""
+- 
+  date: 2024-12-03
+  city: Guadalajara
+  country: Mexico
+  venue: 3 de Marzo O Akron
+  status: En Espera
+  link: ""
+- 
+  date: 2024-12-08
+  city: Merida
+  country: Mexico
+  venue: Estadio Carlos Iturralde
+  status: En Espera
+  link: ""
+- 
+  date: 2024-12-13
+  city: CDMX
+  country: Mexico
+  venue: Foro Sol
+  status: En Espera
+  link: ""
+- 
+  date: 2024-12-14
+  city: CDMX
+  country: Mexico
+  venue: Foro Sol
+  status: En Espera
+  link: ""
+
+----
+
+Seo-title: 
+
+----
+
+Seo-description: 
+
+----
+
+Seo-picture: 
+
+----
+
+Uuid: lsdzuvJtK4UcSzbw

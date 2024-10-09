@@ -21,6 +21,9 @@
         <div id="home_p-menu--news" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
             <a href="<?= page('news')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase"><?= page('news')->title() ?></a>
         </div>
+        <div id="home_p-menu--galeria_inesperada" class="home_p-menu-link--container stop" onmouseenter="homeBoardShow(this)" onmouseleave="homeBoardHide(this)">
+            <a href="<?= page('galeria-inesperada')->url() ?>" class="home_p-menu-link t-cond t-xlarge t-uppercase"><?= page('galeria-inesperada')->title() ?></a>
+        </div>
     </section>
 
     <!-- BOARDS -->
@@ -86,6 +89,28 @@
         <?php snippet('media-block', ['media' => $picture, 'sizes' => '25vw', 'id' => null, 'class' => 'ratio-1_1 flex margin-b', 'video_controls' => 'playsinline nocontrols autoplay muted loop']) ?>
         <?php endforeach ?>
         </ul>
+     </div>
+     <div id="home_p-menu--galeria_inesperada-board" class="home_p-board p-fixed p-all f-column">
+        <p class="t-grot t-xsmall t-uppercase margin-b_small">Próxima Galeria Inesperada:</p>
+        <?php $i = 0;
+              foreach(page('galeria-inesperada')->galeria_inesperada()->toStructure()->paginate(6) as $event): ?>
+            <?php if($i == 0): ?>
+            <div id="home-tour-board--title" class="home_p-tour_b--item flex margin-b">
+                <p class="t-cond t-xxlarge t-uppercase"><?= $event->city() ?></p>
+                <div class="t-cond t-large t-uppercase margin-l">
+                    <?= $event->date()->toDate('j M') ?>
+                </div>
+            </div>
+            <?php else: ?>
+            <div class="home_p-tour_b--item grid-xxl margin-b_small">
+                <p class="t-cond t-body t-uppercase"><?= $event->city() ?></p>
+                <p class="t-cond t-body t-uppercase"><?= $event->date()->toDate('j M') ?></p>
+                <p class="t-cond t-body t-uppercase"><?= $event->date()->toDate('Y') ?></p>
+                <p class="t-cond t-body t-uppercase"><?= $event->venue() ?></p>
+            </div>
+            <?php endif ?>
+        <?php $i++;
+              endforeach ?>
      </div>
 </main>
 
